@@ -4,8 +4,14 @@
  * Will be replaced with database queries when scaling
  */
 
-import verses from '@/public/api/verses.json';
 import { VersePageData } from '@/components/templates/VersePage';
+import fs from 'fs';
+import path from 'path';
+
+// Load verses data from JSON file
+const versesPath = path.join(process.cwd(), 'public/api/verses.json');
+const versesData = JSON.parse(fs.readFileSync(versesPath, 'utf8'));
+const verses = versesData as Record<string, any>;
 
 export async function getVerseData(reference: string): Promise<VersePageData | null> {
   const verseData = verses[reference as keyof typeof verses];
