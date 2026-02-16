@@ -312,4 +312,5 @@ if (require.main === module) {
   main();
 }
 
-export { batchGenerate, BatchConfig, ProcessingResult };
+export { batchGenerate };
+export type { BatchConfig, ProcessingResult };
