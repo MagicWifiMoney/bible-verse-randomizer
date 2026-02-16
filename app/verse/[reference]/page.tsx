@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: { params: Promise<{ reference
  * (All 10 verses will be pre-built at build time)
  */
 export async function generateStaticParams() {
-  const allVerses = getAllVerses();
+  const allVerses = await getAllVerses();
   
   return allVerses.map((slug: string) => ({
     reference: slug
