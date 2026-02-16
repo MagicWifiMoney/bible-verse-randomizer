@@ -1,0 +1,573 @@
+{
+  "schema_version": "1.0",
+  "database": "postgresql",
+  "tables": {
+    "verses": {
+      "description": "Core table containing all 31,102 Bible verses in multiple translations",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true,
+          "description": "Unique identifier for each verse"
+        },
+        "book": {
+          "type": "VARCHAR(50)",
+          "not_null": true,
+          "description": "Book name (e.g., 'John', 'Genesis', 'Psalms')"
+        },
+        "chapter": {
+          "type": "INT",
+          "not_null": true,
+          "description": "Chapter number"
+        },
+        "verse": {
+          "type": "INT",
+          "not_null": true,
+          "description": "Verse number"
+        },
+        "text_kjv": {
+          "type": "TEXT",
+          "description": "Verse text in King James Version"
+        },
+        "text_niv": {
+          "type": "TEXT",
+          "description": "Verse text in New International Version"
+        },
+        "text_esv": {
+          "type": "TEXT",
+          "description": "Verse text in English Standard Version"
+        },
+        "text_nlt": {
+          "type": "TEXT",
+          "description": "Verse text in New Living Translation"
+        },
+        "text_msg": {
+          "type": "TEXT",
+          "description": "Verse text in The Message"
+        },
+        "text_nasb": {
+          "type": "TEXT",
+          "description": "Verse text in New American Standard Bible"
+        },
+        "slug": {
+          "type": "VARCHAR(100)",
+          "unique": true,
+          "description": "URL-friendly slug (e.g., 'john-3-16')"
+        },
+        "testament": {
+          "type": "VARCHAR(20)",
+          "description": "Old Testament or New Testament"
+        },
+        "word_count": {
+          "type": "INT",
+          "description": "Word count of verse (for filtering)"
+        },
+        "character_count": {
+          "type": "INT",
+          "description": "Character count (useful for tattoos, social media)"
+        },
+        "popularity_score": {
+          "type": "INT",
+          "default": 0,
+          "description": "Calculated from search volume, page views, bookmarks"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        },
+        "updated_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_book_chapter_verse ON verses(book, chapter, verse)",
+        "CREATE INDEX idx_slug ON verses(slug)",
+        "CREATE INDEX idx_testament ON verses(testament)",
+        "CREATE INDEX idx_popularity ON verses(popularity_score DESC)",
+        "CREATE INDEX idx_word_count ON verses(word_count)"
+      ]
+    },
+    "topics": {
+      "description": "Hierarchical topic taxonomy for organizing verses",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "name": {
+          "type": "VARCHAR(100)",
+          "not_null": true,
+          "description": "Topic name (e.g., 'Love', 'Faith', 'Healing')"
+        },
+        "slug": {
+          "type": "VARCHAR(100)",
+          "unique": true,
+          "description": "URL slug (e.g., 'love', 'romantic-love')"
+        },
+        "description": {
+          "type": "TEXT",
+          "description": "Brief description of topic"
+        },
+        "parent_topic_id": {
+          "type": "INT",
+          "references": "topics(id)",
+          "nullable": true,
+          "description": "Parent topic for sub-topics (null = main topic)"
+        },
+        "level": {
+          "type": "INT",
+          "description": "Hierarchy level: 1=main, 2=sub, 3=sub-sub"
+        },
+        "search_volume": {
+          "type": "INT",
+          "description": "Monthly search volume for '[topic]' keywords"
+        },
+        "competition_score": {
+          "type": "INT",
+          "description": "SEO competition (0-100)"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_slug ON topics(slug)",
+        "CREATE INDEX idx_parent ON topics(parent_topic_id)",
+        "CREATE INDEX idx_level ON topics(level)"
+      ]
+    },
+    "verse_topics": {
+      "description": "Many-to-many relationship between verses and topics",
+      "columns": {
+        "verse_id": {
+          "type": "INT",
+          "references": "verses(id)",
+          "not_null": true
+        },
+        "topic_id": {
+          "type": "INT",
+          "references": "topics(id)",
+          "not_null": true
+        },
+        "relevance_score": {
+          "type": "INT",
+          "description": "1-10, how relevant this verse is to this topic"
+        },
+        "manual_review": {
+          "type": "BOOLEAN",
+          "default": false,
+          "description": "True if human-reviewed, false if AI-tagged"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "primary_key": ["verse_id", "topic_id"],
+      "indexes": [
+        "CREATE INDEX idx_topic_relevance ON verse_topics(topic_id, relevance_score DESC)"
+      ]
+    },
+    "cross_references": {
+      "description": "Related verses (parallel passages, thematic connections)",
+      "columns": {
+        "verse_id": {
+          "type": "INT",
+          "references": "verses(id)",
+          "not_null": true
+        },
+        "related_verse_id": {
+          "type": "INT",
+          "references": "verses(id)",
+          "not_null": true
+        },
+        "relationship_type": {
+          "type": "VARCHAR(50)",
+          "description": "same_topic, parallel_passage, contrast, fulfillment, quote, etc."
+        },
+        "strength": {
+          "type": "INT",
+          "description": "1-10, strength of relationship"
+        },
+        "manual_review": {
+          "type": "BOOLEAN",
+          "default": false
+        }
+      },
+      "primary_key": ["verse_id", "related_verse_id"],
+      "indexes": [
+        "CREATE INDEX idx_verse_relationships ON cross_references(verse_id, strength DESC)"
+      ]
+    },
+    "generated_content": {
+      "description": "AI-generated or template-based content for each page",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "page_type": {
+          "type": "VARCHAR(50)",
+          "description": "verse, topic, sub-topic, intent, book, collection, study, tool"
+        },
+        "entity_id": {
+          "type": "INT",
+          "description": "Foreign key to verses, topics, etc. depending on page_type"
+        },
+        "slug": {
+          "type": "VARCHAR(200)",
+          "unique": true,
+          "description": "Full URL slug"
+        },
+        "title": {
+          "type": "VARCHAR(200)",
+          "description": "SEO title"
+        },
+        "meta_description": {
+          "type": "VARCHAR(300)",
+          "description": "SEO meta description"
+        },
+        "content_json": {
+          "type": "JSONB",
+          "description": "Structured content sections (intro, explanation, application, prayer, FAQs)"
+        },
+        "word_count": {
+          "type": "INT"
+        },
+        "published": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "human_reviewed": {
+          "type": "BOOLEAN",
+          "default": false,
+          "description": "True if content has been reviewed by human editor"
+        },
+        "generated_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        },
+        "last_updated": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_slug ON generated_content(slug)",
+        "CREATE INDEX idx_page_type ON generated_content(page_type)",
+        "CREATE INDEX idx_published ON generated_content(published)"
+      ]
+    },
+    "intent_pages": {
+      "description": "Intent-based pages (weddings, funerals, tattoos, etc.)",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "category": {
+          "type": "VARCHAR(50)",
+          "description": "occasions, situations, tattoos, sharing"
+        },
+        "name": {
+          "type": "VARCHAR(100)",
+          "description": "weddings, funerals, comfort, encouragement, etc."
+        },
+        "slug": {
+          "type": "VARCHAR(100)",
+          "unique": true
+        },
+        "search_volume": {
+          "type": "INT"
+        },
+        "competition_score": {
+          "type": "INT"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      }
+    },
+    "intent_verses": {
+      "description": "Many-to-many: which verses are relevant for which intent pages",
+      "columns": {
+        "intent_id": {
+          "type": "INT",
+          "references": "intent_pages(id)"
+        },
+        "verse_id": {
+          "type": "INT",
+          "references": "verses(id)"
+        },
+        "relevance_score": {
+          "type": "INT"
+        },
+        "usage_note": {
+          "type": "TEXT",
+          "description": "e.g., 'Great for wedding vows', 'Comforting for grief'"
+        }
+      },
+      "primary_key": ["intent_id", "verse_id"]
+    },
+    "users": {
+      "description": "User accounts for personalization features",
+      "columns": {
+        "id": {
+          "type": "UUID",
+          "primary_key": true,
+          "default": "gen_random_uuid()"
+        },
+        "email": {
+          "type": "VARCHAR(255)",
+          "unique": true,
+          "not_null": true
+        },
+        "password_hash": {
+          "type": "VARCHAR(255)",
+          "description": "bcrypt hash"
+        },
+        "name": {
+          "type": "VARCHAR(100)"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        },
+        "last_login": {
+          "type": "TIMESTAMP"
+        },
+        "email_verified": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "subscription_tier": {
+          "type": "VARCHAR(20)",
+          "default": "free",
+          "description": "free, premium, lifetime"
+        }
+      }
+    },
+    "user_bookmarks": {
+      "description": "User-saved verses",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "user_id": {
+          "type": "UUID",
+          "references": "users(id)"
+        },
+        "verse_id": {
+          "type": "INT",
+          "references": "verses(id)"
+        },
+        "collection_name": {
+          "type": "VARCHAR(100)",
+          "description": "User-created collection (e.g., 'Comfort', 'Tattoo Ideas')"
+        },
+        "personal_note": {
+          "type": "TEXT",
+          "description": "User's personal note on this verse"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_user_bookmarks ON user_bookmarks(user_id)"
+      ]
+    },
+    "user_reading_history": {
+      "description": "Track which verses/pages users have read",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "user_id": {
+          "type": "UUID",
+          "references": "users(id)"
+        },
+        "verse_id": {
+          "type": "INT",
+          "references": "verses(id)",
+          "nullable": true
+        },
+        "page_slug": {
+          "type": "VARCHAR(200)",
+          "description": "For non-verse pages"
+        },
+        "read_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_user_history ON user_reading_history(user_id, read_at DESC)"
+      ]
+    },
+    "email_subscribers": {
+      "description": "Email list for daily verse, topic series, etc.",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "email": {
+          "type": "VARCHAR(255)",
+          "unique": true,
+          "not_null": true
+        },
+        "name": {
+          "type": "VARCHAR(100)"
+        },
+        "subscription_type": {
+          "type": "VARCHAR(50)",
+          "description": "daily_verse, topic_series, weekly_digest"
+        },
+        "topic_preference": {
+          "type": "VARCHAR(100)",
+          "description": "For topic-specific subscriptions"
+        },
+        "translation_preference": {
+          "type": "VARCHAR(20)",
+          "default": "NIV"
+        },
+        "frequency": {
+          "type": "VARCHAR(20)",
+          "description": "daily, weekly, custom"
+        },
+        "subscribed_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        },
+        "confirmed": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "unsubscribed": {
+          "type": "BOOLEAN",
+          "default": false
+        }
+      }
+    },
+    "page_views": {
+      "description": "Analytics (page views for popularity scoring)",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "page_slug": {
+          "type": "VARCHAR(200)",
+          "not_null": true
+        },
+        "verse_id": {
+          "type": "INT",
+          "references": "verses(id)",
+          "nullable": true
+        },
+        "viewed_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        },
+        "user_id": {
+          "type": "UUID",
+          "references": "users(id)",
+          "nullable": true
+        },
+        "session_id": {
+          "type": "VARCHAR(100)"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_page_views ON page_views(page_slug, viewed_at)",
+        "CREATE INDEX idx_verse_views ON page_views(verse_id, viewed_at)"
+      ]
+    },
+    "faqs": {
+      "description": "Pre-generated FAQs for each page type",
+      "columns": {
+        "id": {
+          "type": "SERIAL",
+          "primary_key": true
+        },
+        "entity_type": {
+          "type": "VARCHAR(50)",
+          "description": "verse, topic, intent"
+        },
+        "entity_id": {
+          "type": "INT"
+        },
+        "question": {
+          "type": "TEXT",
+          "not_null": true
+        },
+        "answer": {
+          "type": "TEXT",
+          "not_null": true
+        },
+        "order_index": {
+          "type": "INT",
+          "description": "Display order"
+        },
+        "search_volume": {
+          "type": "INT",
+          "description": "Estimated monthly searches for this question"
+        },
+        "created_at": {
+          "type": "TIMESTAMP",
+          "default": "NOW()"
+        }
+      },
+      "indexes": [
+        "CREATE INDEX idx_entity_faqs ON faqs(entity_type, entity_id)"
+      ]
+    }
+  },
+  "relationships": {
+    "verses_to_topics": "many-to-many via verse_topics",
+    "verses_to_cross_references": "many-to-many via cross_references (self-referential)",
+    "topics_hierarchy": "self-referential via parent_topic_id",
+    "intent_to_verses": "many-to-many via intent_verses",
+    "users_to_verses": "many-to-many via user_bookmarks",
+    "users_to_history": "one-to-many via user_reading_history"
+  },
+  "content_generation_flow": {
+    "step_1": "Populate verses table with all 31,102 Bible verses from API",
+    "step_2": "Create topics table with 2,000+ topics (main + sub)",
+    "step_3": "Tag verses with topics (semi-automated: AI suggestions + human review)",
+    "step_4": "Generate cross-references (automated pattern matching + manual curation)",
+    "step_5": "Create intent_pages and link to verses via intent_verses",
+    "step_6": "Generate FAQs for each entity (AI-generated from search queries)",
+    "step_7": "Use templates + AI to generate content_json for each page",
+    "step_8": "Store in generated_content table",
+    "step_9": "Render pages on-demand or pre-build top 1,000"
+  },
+  "example_queries": {
+    "get_verse_with_topics": "SELECT v.*, array_agg(t.name) AS topics FROM verses v JOIN verse_topics vt ON v.id = vt.verse_id JOIN topics t ON vt.topic_id = t.id WHERE v.slug = 'john-3-16' GROUP BY v.id",
+    "get_topic_verses": "SELECT v.* FROM verses v JOIN verse_topics vt ON v.id = vt.verse_id WHERE vt.topic_id = (SELECT id FROM topics WHERE slug = 'love') ORDER BY vt.relevance_score DESC LIMIT 100",
+    "get_cross_references": "SELECT v.* FROM verses v JOIN cross_references cr ON v.id = cr.related_verse_id WHERE cr.verse_id = 123 ORDER BY cr.strength DESC LIMIT 10",
+    "get_popular_verses": "SELECT v.*, COUNT(pv.id) AS view_count FROM verses v LEFT JOIN page_views pv ON v.id = pv.verse_id GROUP BY v.id ORDER BY view_count DESC LIMIT 50",
+    "search_verses_by_keyword": "SELECT * FROM verses WHERE text_niv ILIKE '%love%' OR text_kjv ILIKE '%love%' LIMIT 50"
+  },
+  "page_url_structure": {
+    "verse_page": "/verse/{book}/{chapter}/{verse}",
+    "topic_hub": "/verses-about/{topic-slug}",
+    "sub_topic": "/verses-about/{topic-slug}/{sub-topic-slug}",
+    "intent_page": "/verses-for/{intent-slug}",
+    "book_overview": "/books/{book}",
+    "chapter_overview": "/books/{book}/chapter-{number}",
+    "collection": "/collections/{collection-slug}",
+    "study_guide": "/study/{study-slug}",
+    "tool": "/tools/{tool-slug}",
+    "search": "/search?q={query}",
+    "user_collection": "/my-collection",
+    "user_profile": "/profile"
+  }
+}
