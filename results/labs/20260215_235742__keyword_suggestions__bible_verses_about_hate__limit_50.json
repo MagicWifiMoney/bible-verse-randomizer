@@ -1,0 +1,3103 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:57:42.026935",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about hate",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0762 sec.",
+    "cost": 0.0126,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160757-1040-0399-0000-92e908a12efa",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0655 sec.",
+        "cost": 0.0126,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about hate",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about hate",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about hate",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-02-02 13:28:32 +00:00",
+                "competition": 0.01,
+                "competition_level": "LOW",
+                "cpc": 0.17,
+                "search_volume": 2400,
+                "low_top_of_page_bid": 0.01,
+                "high_top_of_page_bid": 0.02,
+                "categories": [
+                  10002,
+                  10108,
+                  10231,
+                  13472
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 1600
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 1900
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 2400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 6600
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 1900
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 1900
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 1900
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 2400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 2400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 2400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 2400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 2900
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -16,
+                  "quarterly": -33,
+                  "yearly": -16
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20hate&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "video",
+                  "perspectives",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 20000000,
+                "last_updated_time": "2026-01-20 07:32:13 +00:00",
+                "previous_updated_time": "2025-12-04 23:03:08 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 8.1,
+                "dofollow": 4.0,
+                "referring_pages": 4.9,
+                "referring_domains": 2.1,
+                "referring_main_domains": 2.0,
+                "rank": 35.9,
+                "main_domain_rank": 428.5,
+                "last_updated_time": "2026-01-20 05:32:38 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-03-03 19:07:34 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 26,
+            "items_count": 26,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyNiwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImJpYmxlIHZlcnNlcyBhYm91dCBoYXRlIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjUwLCJvZmZzZXQiOjAsImFpZCI6MTA0MDg3LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwMjE2MDc1Ny0xMDQwLTAzOTktMDAwMC05MmU5MDhhMTJlZmEiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjI4YmUzOGFiLTc4ZjUtNGUwOS05OTFhLWRjNzZhNjQ2NjZlMyIsIlNlYXJjaEFmdGVyRGF0YSI6Wy05MjIzMzcyMDM2ODU0Nzc1ODA4LCJmYTU1NGI3OC01YjYxLWE0MGUtODdiYS1mYzhiNDFhNzU4ZWMiXX0=",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "verses in the bible about hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 15:07:36 +00:00",
+                  "competition": 0.01,
+                  "competition_level": "LOW",
+                  "cpc": 0.17,
+                  "search_volume": 2400,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10108,
+                    10581
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 2900
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -16,
+                    "quarterly": -33,
+                    "yearly": -16
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about hate",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 9.4,
+                  "dofollow": 4.6,
+                  "referring_pages": 6.1,
+                  "referring_domains": 3.1,
+                  "referring_main_domains": 3.0,
+                  "rank": 33.2,
+                  "main_domain_rank": 570.0,
+                  "last_updated_time": "2025-04-13 18:36:03 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2025-04-10 22:39:07 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-02 13:28:32 +00:00",
+                  "competition": 0.01,
+                  "competition_level": "LOW",
+                  "cpc": 0.17,
+                  "search_volume": 2400,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 2900
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -16,
+                    "quarterly": -33,
+                    "yearly": -16
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.1,
+                  "dofollow": 4.0,
+                  "referring_pages": 4.9,
+                  "referring_domains": 2.1,
+                  "referring_main_domains": 2.0,
+                  "rank": 35.9,
+                  "main_domain_rank": 428.5,
+                  "last_updated_time": "2026-01-20 05:32:38 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "verses about hate in the bible",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 08:43:52 +00:00",
+                  "competition": 0.01,
+                  "competition_level": "LOW",
+                  "cpc": 0.17,
+                  "search_volume": 2400,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10108,
+                    10581
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 2900
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -16,
+                    "quarterly": -33,
+                    "yearly": -16
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about hate",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 15.2,
+                  "dofollow": 5.9,
+                  "referring_pages": 12.5,
+                  "referring_domains": 6.6,
+                  "referring_main_domains": 6.2,
+                  "rank": 42.1,
+                  "main_domain_rank": 579.8,
+                  "last_updated_time": "2024-10-04 20:58:37 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-08-31 05:35:44 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about self-hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 08:34:10 +00:00",
+                  "competition": 0.01,
+                  "competition_level": "LOW",
+                  "cpc": 0.01,
+                  "search_volume": 140,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 140
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -21,
+                    "quarterly": -35,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 6.4,
+                  "dofollow": 6.2,
+                  "referring_pages": 6.4,
+                  "referring_domains": 1.2,
+                  "referring_main_domains": 1.2,
+                  "rank": 36.6,
+                  "main_domain_rank": 569.4,
+                  "last_updated_time": "2026-02-01 23:40:53 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:39 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about self hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-28 10:54:59 +00:00",
+                  "competition": 0.01,
+                  "competition_level": "LOW",
+                  "cpc": 0.01,
+                  "search_volume": 140,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 140
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -21,
+                    "quarterly": -35,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about self-hate",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 6.4,
+                  "dofollow": 6.2,
+                  "referring_pages": 6.4,
+                  "referring_domains": 1.2,
+                  "referring_main_domains": 1.2,
+                  "rank": 36.6,
+                  "main_domain_rank": 569.5,
+                  "last_updated_time": "2026-01-01 12:25:54 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:40 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate and anger",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 23:46:27 +00:00",
+                  "competition": 0.1,
+                  "competition_level": "LOW",
+                  "cpc": 0.06,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    10581,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 100,
+                    "quarterly": 100,
+                    "yearly": -60
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about hate and anger",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 7.2,
+                  "dofollow": 3.5,
+                  "referring_pages": 4.1,
+                  "referring_domains": 1.7,
+                  "referring_main_domains": 1.7,
+                  "rank": 36.3,
+                  "main_domain_rank": 581.4,
+                  "last_updated_time": "2026-02-05 01:47:52 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate speech",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-31 18:04:16 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -67,
+                    "quarterly": -50,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about hate speech",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.3,
+                  "dofollow": 4.6,
+                  "referring_pages": 5.2,
+                  "referring_domains": 1.6,
+                  "referring_main_domains": 1.6,
+                  "rank": 29.7,
+                  "main_domain_rank": 520.0,
+                  "last_updated_time": "2026-02-06 06:00:54 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about love and hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 21:37:54 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108,
+                    10581,
+                    10756,
+                    13861
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": -33,
+                    "yearly": -33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about hate and love",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 2.7,
+                  "dofollow": 2.2,
+                  "referring_pages": 2.6,
+                  "referring_domains": 1.5,
+                  "referring_main_domains": 1.3,
+                  "rank": 19.2,
+                  "main_domain_rank": 426.3,
+                  "last_updated_time": "2026-02-06 06:01:46 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:36 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about spreading love not hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-22 20:25:06 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108,
+                    10756,
+                    13861
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -33,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 11.3,
+                  "dofollow": 5.0,
+                  "referring_pages": 10.1,
+                  "referring_domains": 5.0,
+                  "referring_main_domains": 5.0,
+                  "rank": 50.5,
+                  "main_domain_rank": 375.9,
+                  "last_updated_time": "2025-12-24 18:25:09 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2023-03-03 19:07:40 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate in your heart",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-02 17:52:12 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 33,
+                    "yearly": 300
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about hate in your heart",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 5.9,
+                  "dofollow": 2.4,
+                  "referring_pages": 2.9,
+                  "referring_domains": 1.2,
+                  "referring_main_domains": 1.2,
+                  "rank": 21.8,
+                  "main_domain_rank": 461.6,
+                  "last_updated_time": "2025-12-24 18:37:16 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about anger and hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 02:21:03 +00:00",
+                  "competition": 0.43,
+                  "competition_level": "MEDIUM",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": null,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about hate and anger",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:27 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about love vs hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 06:13:04 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": null,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2025-10-31 14:59:23 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate and love",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 15:21:47 +00:00",
+                  "competition": 0.07,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about hate and love",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about love conquering hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 09:44:41 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10019,
+                    10108,
+                    10168,
+                    10756,
+                    10885,
+                    12204,
+                    13371,
+                    13861
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "love conquers hate bible verse",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 45,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2023-03-03 19:07:36 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about love not hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-26 09:09:40 +00:00",
+                  "competition": 0.02,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108,
+                    10756,
+                    13861
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about love not hate",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 45,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:36 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate kjv",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-31 21:52:57 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13436,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "hate bible verses kjv",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 45,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about letting go of hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 06:16:40 +00:00",
+                  "competition": 0.02,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "informational"
+                  ],
+                  "last_updated_time": "2025-09-08 21:49:02 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate and forgiveness",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 03:45:10 +00:00",
+                  "competition": 0.02,
+                  "competition_level": "LOW",
+                  "cpc": 0.03,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about love over hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 14:09:05 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108,
+                    10756,
+                    13861
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "love over hate bible verse",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 48,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:36 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about having hate in your heart",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 08:22:43 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    10756,
+                    13472,
+                    13861
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 8
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate and bitterness",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 01:23:20 +00:00",
+                  "competition": 0.24,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 13,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "top bible verses about hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 01:45:27 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 09:28:02 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about rising above hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 08:41:03 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:39 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about hate crimes",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-28 20:48:02 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about receiving hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 07:34:53 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:38 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about speaking hate",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 06:13:27 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:40 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

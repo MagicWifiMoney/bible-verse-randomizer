@@ -1,0 +1,46 @@
+🚀 Sprint 2 Batch 1: Generating 970 verse pages
+
+📋 Configuration:
+   Target: 970 verses
+   Rate limit: 10 requests/minute
+   Model: claude-sonnet-4-20250514
+   Progress interval: every 100 verses
+
+📋 Selecting top 970 verses based on popularity...
+
+   John: 100 verses
+   Psalms: 100 verses
+   Proverbs: 100 verses
+   Matthew: 100 verses
+   Romans: 100 verses
+   Genesis: 100 verses
+   Isaiah: 100 verses
+   Philippians: 100 verses
+   Ephesians: 100 verses
+   James: 100 verses
+
+✅ Selected 970 verses
+   Books covered: 10
+
+[1/970] (0.1%) John 1:1
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:199 M:253 A:297 P:252)
+   🔄 Retrying (attempt 2/2)...
+   💾 Saving to database...
+   ✅ Complete!
+[2/970] (0.2%) John 1:2
+   🤖 Generating AI content...
+   💾 Saving to database...
+   ✅ Complete!
+[3/970] (0.3%) John 1:3
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:201 M:247 A:301 P:220)
+   🔄 Retrying (attempt 2/2)...
+   ⚠️  Content too short (C:214 M:238 A:289 P:210)
+   ⚠️  Accepting shorter content after retry
+   💾 Saving to database...
+   ✅ Complete!
+[4/970] (0.4%) John 1:4
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:209 M:244 A:330 P:227)
+   🔄 Retrying (attempt 2/2)...

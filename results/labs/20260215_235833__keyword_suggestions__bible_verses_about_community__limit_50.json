@@ -1,0 +1,4282 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:58:33.406863",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about community",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0859 sec.",
+    "cost": 0.0136,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160758-1040-0399-0000-272c72a5a26a",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0730 sec.",
+        "cost": 0.0136,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about community",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about community",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about community",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-02-02 17:27:53 +00:00",
+                "competition": 0.07,
+                "competition_level": "LOW",
+                "cpc": 0.86,
+                "search_volume": 5400,
+                "low_top_of_page_bid": 0.01,
+                "high_top_of_page_bid": 0.01,
+                "categories": [
+                  10108
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 2900
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 4400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 5400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 6600
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 5400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 4400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 4400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 4400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 5400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 5400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 5400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 6600
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -34,
+                  "quarterly": -46,
+                  "yearly": -19
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20community&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 51700000,
+                "last_updated_time": "2026-01-19 17:05:40 +00:00",
+                "previous_updated_time": "2025-12-04 09:25:02 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 8.0,
+                "dofollow": 5.9,
+                "referring_pages": 7.7,
+                "referring_domains": 3.6,
+                "referring_main_domains": 3.6,
+                "rank": 41.1,
+                "main_domain_rank": 433.4,
+                "last_updated_time": "2026-01-19 15:05:42 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-03-03 19:07:30 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 36,
+            "items_count": 36,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjozNiwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6ImJpYmxlIHZlcnNlcyBhYm91dCBjb21tdW5pdHkiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6NTAsIm9mZnNldCI6MCwiYWlkIjoxMDQwODcsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjAyMTYwNzU4LTEwNDAtMDM5OS0wMDAwLTI3MmM3MmE1YTI2YSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiY2E2ZTc2ZTctZWY5Mi00YmQzLTkwNzUtYzA2MTAwNGY5MjBhIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbLTkyMjMzNzIwMzY4NTQ3NzU4MDgsImZjZDBiZTBmLWI0OTUtNTBlYy1iNTczLTM0MzQ5YjY5MGZmNSJdfQ==",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "verses about community in the bible",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 04:06:39 +00:00",
+                  "competition": 0.07,
+                  "competition_level": "LOW",
+                  "cpc": 0.86,
+                  "search_volume": 5400,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.01,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472,
+                    13476
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 6600
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -34,
+                    "quarterly": -46,
+                    "yearly": -19
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about community",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 39.1,
+                  "dofollow": 22.9,
+                  "referring_pages": 35.3,
+                  "referring_domains": 14.4,
+                  "referring_main_domains": 13.8,
+                  "rank": 75.4,
+                  "main_domain_rank": 377.8,
+                  "last_updated_time": "2024-10-12 15:59:21 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-02 12:54:26 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-02 17:27:53 +00:00",
+                  "competition": 0.07,
+                  "competition_level": "LOW",
+                  "cpc": 0.86,
+                  "search_volume": 5400,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.01,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 2900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 6600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 4400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 5400
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 6600
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -34,
+                    "quarterly": -46,
+                    "yearly": -19
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.0,
+                  "dofollow": 5.9,
+                  "referring_pages": 7.7,
+                  "referring_domains": 3.6,
+                  "referring_main_domains": 3.6,
+                  "rank": 41.1,
+                  "main_domain_rank": 433.4,
+                  "last_updated_time": "2026-01-19 15:05:42 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about fellowship and community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 11:04:56 +00:00",
+                  "competition": 0.06,
+                  "competition_level": "LOW",
+                  "cpc": 1.55,
+                  "search_volume": 390,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 390
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": -46,
+                    "yearly": -34
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about community and fellowship",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 17.0,
+                  "dofollow": 12.0,
+                  "referring_pages": 16.4,
+                  "referring_domains": 10.8,
+                  "referring_main_domains": 10.4,
+                  "rank": 72.1,
+                  "main_domain_rank": 461.2,
+                  "last_updated_time": "2024-10-06 12:20:16 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "informational"
+                  ],
+                  "last_updated_time": "2023-03-03 19:07:32 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community and fellowship",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 13:17:47 +00:00",
+                  "competition": 0.06,
+                  "competition_level": "LOW",
+                  "cpc": 1.55,
+                  "search_volume": 390,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 390
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": -46,
+                    "yearly": -34
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.0,
+                  "dofollow": 5.8,
+                  "referring_pages": 7.8,
+                  "referring_domains": 4.2,
+                  "referring_main_domains": 4.2,
+                  "rank": 36.6,
+                  "main_domain_rank": 415.9,
+                  "last_updated_time": "2025-10-29 04:45:47 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "navigational"
+                  ],
+                  "last_updated_time": "2023-09-03 18:43:33 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about serving the community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 06:22:29 +00:00",
+                  "competition": 0.08,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 260,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 480
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": -33,
+                    "yearly": -46
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 10.3,
+                  "dofollow": 6.8,
+                  "referring_pages": 10.0,
+                  "referring_domains": 5.8,
+                  "referring_main_domains": 5.0,
+                  "rank": 35.7,
+                  "main_domain_rank": 454.3,
+                  "last_updated_time": "2025-12-30 02:49:09 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-08-30 14:45:56 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community service",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 07:53:14 +00:00",
+                  "competition": 0.08,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 260,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 480
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": -33,
+                    "yearly": -46
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses on community service",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 12.9,
+                  "dofollow": 7.4,
+                  "referring_pages": 12.7,
+                  "referring_domains": 8.7,
+                  "referring_main_domains": 8.3,
+                  "rank": 53.1,
+                  "main_domain_rank": 440.0,
+                  "last_updated_time": "2024-10-07 04:01:05 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about the importance of community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 19:43:22 +00:00",
+                  "competition": 0.05,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.01,
+                  "categories": [
+                    10002,
+                    10231,
+                    13436,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -18,
+                    "quarterly": -36,
+                    "yearly": 29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 7.8,
+                  "dofollow": 5.7,
+                  "referring_pages": 7.5,
+                  "referring_domains": 3.4,
+                  "referring_main_domains": 3.4,
+                  "rank": 36.7,
+                  "main_domain_rank": 375.5,
+                  "last_updated_time": "2026-02-03 11:05:37 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:41 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about christian community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 05:41:45 +00:00",
+                  "competition": 0.04,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -29,
+                    "quarterly": -44,
+                    "yearly": -29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 1,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 47.8,
+                  "dofollow": 21.6,
+                  "referring_pages": 44.6,
+                  "referring_domains": 29.2,
+                  "referring_main_domains": 28.9,
+                  "rank": 72.9,
+                  "main_domain_rank": 397.4,
+                  "last_updated_time": "2026-01-03 08:19:12 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:29 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about being in community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 22:45:51 +00:00",
+                  "competition": 0.07,
+                  "competition_level": "LOW",
+                  "cpc": 2.09,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.02,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -29,
+                    "quarterly": -29,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.0,
+                  "dofollow": 6.0,
+                  "referring_pages": 7.7,
+                  "referring_domains": 3.6,
+                  "referring_main_domains": 3.6,
+                  "rank": 40.5,
+                  "main_domain_rank": 456.8,
+                  "last_updated_time": "2026-01-05 01:06:00 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:28 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about living in community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-22 22:12:31 +00:00",
+                  "competition": 0.03,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -25,
+                    "quarterly": -57,
+                    "yearly": -25
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.0,
+                  "dofollow": 5.9,
+                  "referring_pages": 7.7,
+                  "referring_domains": 3.6,
+                  "referring_main_domains": 3.6,
+                  "rank": 40.5,
+                  "main_domain_rank": 411.3,
+                  "last_updated_time": "2026-01-07 06:09:03 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:36 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about coming together as a community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 20:10:07 +00:00",
+                  "competition": 0.04,
+                  "competition_level": "LOW",
+                  "cpc": 0.01,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -25,
+                    "quarterly": -40,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 8
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.2,
+                  "dofollow": 6.1,
+                  "referring_pages": 7.9,
+                  "referring_domains": 3.8,
+                  "referring_main_domains": 3.8,
+                  "rank": 42.0,
+                  "main_domain_rank": 465.9,
+                  "last_updated_time": "2026-01-07 06:08:39 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about belonging to a community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 05:36:35 +00:00",
+                  "competition": 0.04,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -40,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.0,
+                  "dofollow": 5.9,
+                  "referring_pages": 7.7,
+                  "referring_domains": 3.6,
+                  "referring_main_domains": 3.6,
+                  "rank": 40.5,
+                  "main_domain_rank": 422.8,
+                  "last_updated_time": "2026-01-10 08:12:13 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2024-08-16 14:10:57 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about church community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-28 22:00:33 +00:00",
+                  "competition": 0.04,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -40,
+                    "quarterly": -40,
+                    "yearly": -25
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "church community bible verses",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 9.2,
+                  "dofollow": 7.0,
+                  "referring_pages": 8.9,
+                  "referring_domains": 4.2,
+                  "referring_main_domains": 4.2,
+                  "rank": 42.8,
+                  "main_domain_rank": 451.0,
+                  "last_updated_time": "2026-01-10 08:12:04 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-08-30 09:56:28 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community of believers",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-22 15:01:50 +00:00",
+                  "competition": 0.05,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": -67,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "community of believers bible verse",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 8.0,
+                  "dofollow": 6.0,
+                  "referring_pages": 7.7,
+                  "referring_domains": 3.6,
+                  "referring_main_domains": 3.6,
+                  "rank": 40.5,
+                  "main_domain_rank": 456.6,
+                  "last_updated_time": "2025-12-24 18:38:22 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-08-29 23:59:55 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about service to community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-29 11:04:53 +00:00",
+                  "competition": 0.02,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10006,
+                    10108,
+                    10366,
+                    13493
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -67,
+                    "quarterly": -67,
+                    "yearly": -67
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses on community service",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3.7,
+                  "dofollow": 3.0,
+                  "referring_pages": 3.6,
+                  "referring_domains": 2.6,
+                  "referring_main_domains": 2.6,
+                  "rank": 33.6,
+                  "main_domain_rank": 376.6,
+                  "last_updated_time": "2025-12-24 18:25:13 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-09-03 23:44:45 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "verses in the bible about community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 23:56:26 +00:00",
+                  "competition": 0.06,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13436
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -67,
+                    "quarterly": -50,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about community",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2024-02-13 19:00:38 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community and friendship",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-02 19:52:10 +00:00",
+                  "competition": 0.09,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -50,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-09-04 07:11:36 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about helping the community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 12:53:37 +00:00",
+                  "competition": 0.09,
+                  "competition_level": "LOW",
+                  "cpc": 0.01,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": 0,
+                    "yearly": 100
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 82,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 243.5,
+                  "dofollow": 122.6,
+                  "referring_pages": 235.8,
+                  "referring_domains": 44.8,
+                  "referring_main_domains": 85.3,
+                  "rank": 163.1,
+                  "main_domain_rank": 401.3,
+                  "last_updated_time": "2023-11-27 18:45:32 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-06-22 02:29:49 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about giving back to the community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-31 18:53:34 +00:00",
+                  "competition": 0.04,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 3,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 8
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 11.0,
+                  "dofollow": 7.5,
+                  "referring_pages": 10.6,
+                  "referring_domains": 7.3,
+                  "referring_main_domains": 7.3,
+                  "rank": 76.9,
+                  "main_domain_rank": 434.7,
+                  "last_updated_time": "2025-11-02 21:45:35 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:33 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about friendship and community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 07:29:47 +00:00",
+                  "competition": 0.05,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": 0,
+                    "yearly": 100
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about community and friendship",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 52,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 145.0,
+                  "dofollow": 97.8,
+                  "referring_pages": 138.7,
+                  "referring_domains": 41.0,
+                  "referring_main_domains": 67.3,
+                  "rank": 152.3,
+                  "main_domain_rank": 460.1,
+                  "last_updated_time": "2023-08-06 21:22:09 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:32 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community with others",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 13:32:29 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -100,
+                    "yearly": -100
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-09-03 09:24:54 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community outreach",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 21:57:22 +00:00",
+                  "competition": 0.07,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 39,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 105.5,
+                  "dofollow": 64.4,
+                  "referring_pages": 100.5,
+                  "referring_domains": 29.4,
+                  "referring_main_domains": 46.8,
+                  "rank": 127.6,
+                  "main_domain_rank": 420.7,
+                  "last_updated_time": "2023-11-27 18:45:00 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about reaching out to community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-22 21:24:52 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about community outreach",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 39,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 7
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 87.4,
+                  "dofollow": 63.9,
+                  "referring_pages": 84.4,
+                  "referring_domains": 46.7,
+                  "referring_main_domains": 43.5,
+                  "rank": 138.5,
+                  "main_domain_rank": 368.2,
+                  "last_updated_time": "2022-08-07 17:25:34 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:39 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about call to family community and participation",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-31 17:30:45 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "call to family community and participation bible verses",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 9
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:29 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community support",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-28 09:39:38 +00:00",
+                  "competition": 0.09,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verse about community support",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about serving your community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 14:47:27 +00:00",
+                  "competition": 0.21,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2023-09-05 04:51:47 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about growing in community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 06:48:27 +00:00",
+                  "competition": 0.0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-08-31 12:18:16 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "short bible verses about community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 20:48:45 +00:00",
+                  "competition": 0.02,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -43,
+                    "quarterly": 33,
+                    "yearly": null
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2025-10-21 09:21:54 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about reaching out to the community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-02-01 09:14:48 +00:00",
+                  "competition": 0.14,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about community outreach",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 8
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2024-04-12 19:06:31 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community esv",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 14:58:20 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about intentional community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-31 04:32:20 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:34 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community groups",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 13:46:14 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10007,
+                    10108,
+                    11496,
+                    13418
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community prayer",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-26 17:41:09 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "prayer for the community bible verse",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about community policing",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 06:47:49 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108,
+                    14306
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "catholic bible verses about community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 11:37:52 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 12:06:07 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about caring for community",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-27 13:16:04 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10006,
+                    10366,
+                    13493
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:29 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

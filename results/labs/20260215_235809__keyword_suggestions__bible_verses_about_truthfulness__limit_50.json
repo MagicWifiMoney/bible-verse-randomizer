@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:58:09.166117",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about truthfulness",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0834 sec.",
+    "cost": 0.0102,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160758-1040-0399-0000-5809cba91368",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0667 sec.",
+        "cost": 0.0102,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about truthfulness",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about truthfulness",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about truthfulness",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-01-23 21:06:32 +00:00",
+                "competition": 0.01,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 50,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10002,
+                  10108,
+                  10231,
+                  13472
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 50
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -25,
+                  "quarterly": -40,
+                  "yearly": -99
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "bible verses about truth",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20truthfulness&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "video",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 1150000,
+                "last_updated_time": "2026-02-05 03:40:18 +00:00",
+                "previous_updated_time": "2025-06-22 17:54:00 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 3.2,
+                "dofollow": 1.9,
+                "referring_pages": 2.9,
+                "referring_domains": 2.1,
+                "referring_main_domains": 2.1,
+                "rank": 12.5,
+                "main_domain_rank": 449.4,
+                "last_updated_time": "2026-02-05 01:40:19 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-03-03 19:07:42 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 2,
+            "items_count": 2,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IHRydXRoZnVsbmVzcyIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0Ijo1MCwib2Zmc2V0IjowLCJhaWQiOjEwNDA4NywidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDIxNjA3NTgtMTA0MC0wMzk5LTAwMDAtNTgwOWNiYTkxMzY4IiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiI5MWRlZmI5ZC00NmFiLTQwMjYtOWJhOS1jMmExOTRkZGY4MDgiLCJTZWFyY2hBZnRlckRhdGEiOlstOTIyMzM3MjAzNjg1NDc3NTgwOCwiMDQ3ZDY1ZTAtOWI2NS02NTk3LWRmY2MtMTA1NzAxNTc2NDkwIl19",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "bible verses about truthfulness",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-23 21:06:32 +00:00",
+                  "competition": 0.01,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -25,
+                    "quarterly": -40,
+                    "yearly": -99
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses about truth",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3.2,
+                  "dofollow": 1.9,
+                  "referring_pages": 2.9,
+                  "referring_domains": 2.1,
+                  "referring_main_domains": 2.1,
+                  "rank": 12.5,
+                  "main_domain_rank": 449.4,
+                  "last_updated_time": "2026-02-05 01:40:19 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:42 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about truthfulness kjv",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-30 12:13:35 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    13436,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "truth bible verses kjv",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:42 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:57:52.203385",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about losing a job",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0757 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160757-1040-0399-0000-4df9080a304b",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0624 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about losing a job",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about losing a job",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about losing a job",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-01-31 06:02:09 +00:00",
+                "competition": 0.03,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 30,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10006,
+                  10366,
+                  13493
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 30
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 0,
+                  "quarterly": 0,
+                  "yearly": 0
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "losing a job bible verse",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 6
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20losing%20a%20job&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 5050000,
+                "last_updated_time": "2025-12-24 20:26:38 +00:00",
+                "previous_updated_time": null
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 0.7,
+                "dofollow": 0.7,
+                "referring_pages": 0.7,
+                "referring_domains": 0.7,
+                "referring_main_domains": 0.7,
+                "rank": 0.2,
+                "main_domain_rank": 440.1,
+                "last_updated_time": "2025-12-24 18:26:54 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-03-03 19:07:35 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IGxvc2luZyBhIGpvYiIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjp0cnVlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0Ijo1MCwib2Zmc2V0IjowLCJhaWQiOjEwNDA4NywidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDIxNjA3NTctMTA0MC0wMzk5LTAwMDAtNGRmOTA4MGEzMDRiIiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiIzOWMzYmQxMC1hZjE4LTQzNWEtYTBhMS1hNjA5YzYxYjNkNTIiLCJTZWFyY2hBZnRlckRhdGEiOlszMCwiZGZmNTkwY2QtMTQyNC02OGNjLTM4Y2EtZmFhMWY4OGE1ZmRmIl19",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "bible verses about losing a job",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-31 06:02:09 +00:00",
+                  "competition": 0.03,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10006,
+                    10366,
+                    13493
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "losing a job bible verse",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 0.7,
+                  "dofollow": 0.7,
+                  "referring_pages": 0.7,
+                  "referring_domains": 0.7,
+                  "referring_main_domains": 0.7,
+                  "rank": 0.2,
+                  "main_domain_rank": 440.1,
+                  "last_updated_time": "2025-12-24 18:26:54 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:35 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

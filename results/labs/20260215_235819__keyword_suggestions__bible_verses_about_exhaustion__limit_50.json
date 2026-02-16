@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:58:19.243837",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about exhaustion",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0628 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160758-1040-0399-0000-119758e1e142",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0520 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about exhaustion",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about exhaustion",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about exhaustion",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": null,
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": null,
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IGV4aGF1c3Rpb24iLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6NTAsIm9mZnNldCI6MCwiYWlkIjoxMDQwODcsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjAyMTYwNzU4LTEwNDAtMDM5OS0wMDAwLTExOTc1OGUxZTE0MiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiYTI5NjM4YjItNzA0NS00YTg3LTkwZjktMzlkNTRlZGI1MTBlIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMTAsImIwYzI4YzE5LWQwY2UtNzc0Yi1mODZlLWJiMjI2OGM1MmE5ZSJdfQ==",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "bible verses about emotional exhaustion",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-24 01:35:45 +00:00",
+                  "competition": 0.11,
+                  "competition_level": "LOW",
+                  "cpc": 0.01,
+                  "search_volume": 10,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10108,
+                    10581
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 10
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 5
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:31 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

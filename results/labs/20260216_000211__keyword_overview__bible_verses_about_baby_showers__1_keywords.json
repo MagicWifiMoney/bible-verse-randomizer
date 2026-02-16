@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-16T00:02:11.259282",
+    "category": "labs",
+    "operation": "keyword_overview",
+    "keyword": "bible verses about baby showers",
+    "extra_info": "1_keywords"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0446 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160802-1040-0607-0000-580459550fc5",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0314 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_overview",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_overview",
+          "se_type": "google",
+          "keywords": [
+            "bible verses about baby showers"
+          ],
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_serp_info": false,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "location_code": 2840,
+            "language_code": "en",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:57:58.580617",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about financial trouble",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1475 sec.",
+    "cost": 0.01,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160757-1040-0399-0000-a1e9a899a66c",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.1343 sec.",
+        "cost": 0.01,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about financial trouble",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about financial trouble",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about financial trouble",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": null,
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": null,
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": null
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": null,
+            "items_count": 0,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IGZpbmFuY2lhbCB0cm91YmxlIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjUwLCJvZmZzZXQiOjAsImFpZCI6MTA0MDg3LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwMjE2MDc1Ny0xMDQwLTAzOTktMDAwMC1hMWU5YTg5OWE2NmMiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjdhMWQ5NDM3LWY0NGYtNDA4MS04MDk3LTE2YTY2MDllYTQ2NiIsIlNlYXJjaEFmdGVyRGF0YSI6bnVsbH0="
+          }
+        ]
+      }
+    ]
+  }
+}

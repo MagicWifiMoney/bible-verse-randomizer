@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:58:22.169791",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about alcoholism",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0694 sec.",
+    "cost": 0.0102,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160758-1040-0399-0000-59af1009df98",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0557 sec.",
+        "cost": 0.0102,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about alcoholism",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about alcoholism",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about alcoholism",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-01-25 05:18:30 +00:00",
+                "competition": 0.02,
+                "competition_level": "LOW",
+                "cpc": 0.02,
+                "search_volume": 320,
+                "low_top_of_page_bid": 0.01,
+                "high_top_of_page_bid": 0.56,
+                "categories": [
+                  10108
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 260
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 0,
+                  "quarterly": -33,
+                  "yearly": -19
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "verses about alcohol in the bible",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 2,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20alcoholism&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 5460000,
+                "last_updated_time": "2026-01-15 08:07:44 +00:00",
+                "previous_updated_time": "2025-10-30 01:23:50 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 46.6,
+                "dofollow": 38.5,
+                "referring_pages": 43.8,
+                "referring_domains": 21.2,
+                "referring_main_domains": 19.6,
+                "rank": 76.2,
+                "main_domain_rank": 421.2,
+                "last_updated_time": "2026-01-15 06:07:48 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-03-03 19:07:27 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 2,
+            "items_count": 2,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IGFsY29ob2xpc20iLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6NTAsIm9mZnNldCI6MCwiYWlkIjoxMDQwODcsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjAyMTYwNzU4LTEwNDAtMDM5OS0wMDAwLTU5YWYxMDA5ZGY5OCIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiZmEyYjFiZmMtNTA5MC00OTM3LTg5NDMtNzQxMzBiMDljY2JlIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbLTkyMjMzNzIwMzY4NTQ3NzU4MDgsIjhjMzJiNTZlLWM2MmEtNTA5MS1lZDUzLTY5NDkwMjAzNzk2OCJdfQ==",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "bible verses about alcoholism",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 05:18:30 +00:00",
+                  "competition": 0.02,
+                  "competition_level": "LOW",
+                  "cpc": 0.02,
+                  "search_volume": 320,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.56,
+                  "categories": [
+                    10108
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 260
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -33,
+                    "yearly": -19
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "verses about alcohol in the bible",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 2,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 46.6,
+                  "dofollow": 38.5,
+                  "referring_pages": 43.8,
+                  "referring_domains": 21.2,
+                  "referring_main_domains": 19.6,
+                  "rank": 76.2,
+                  "main_domain_rank": 421.2,
+                  "last_updated_time": "2026-01-15 06:07:48 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:27 +00:00"
+                }
+              },
+              {
+                "se_type": "google",
+                "keyword": "bible verses about divorce and alcoholism",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-25 16:32:45 +00:00",
+                  "competition": null,
+                  "competition_level": null,
+                  "cpc": null,
+                  "search_volume": null,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10002,
+                    10108,
+                    10231,
+                    10581,
+                    13472
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 0
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 0
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": null,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 6
+                },
+                "serp_info": null,
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:30 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

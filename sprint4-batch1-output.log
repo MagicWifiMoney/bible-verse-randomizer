@@ -1,0 +1,47 @@
+
+======================================================================
+🚀 SPRINT 4 BATCH 1: Generate 417 Intent Pages
+======================================================================
+
+Target: Intents 1-417
+Start time: 2026-02-16T06:08:24.677Z
+Rate limit: 10 requests/min
+
+📋 Loading intents 1-417...
+
+✅ Loaded 417 intents for batch 1
+   Top intent: For Tattoos (8900/mo)
+   Last intent: Discipline Nlt (577/mo)
+
+
+[1/417] Processing: For Tattoos (for-tattoos)
+   Search volume: 8900/mo | Competition: 55%
+   Fetched 25 verses
+   Generating content...
+   Generated: 263 intro words, 331 guidance words, 10 FAQs
+   ❌ FAILED: column "title" of relation "intent_pages" does not exist
+
+[2/417] Processing: For Weddings (for-weddings)
+   Search volume: 7200/mo | Competition: 45%
+   Fetched 25 verses
+   Generating content...
+
+======================================================================
+🚀 SPRINT 4 BATCH 1: Generate 417 Intent Pages
+======================================================================
+
+Target: Intents 1-417
+Start time: 2026-02-16T06:10:28.311Z
+Rate limit: 10 requests/min
+
+📋 Loading intents 1-417...
+
+✅ Loaded 417 intents for batch 1
+   Top intent: For Tattoos (8900/mo)
+   Last intent: Discipline Nlt (577/mo)
+
+
+[1/417] Processing: For Tattoos (for-tattoos)
+   Search volume: 8900/mo | Competition: 55%
+   Fetched 25 verses
+   Generating content...

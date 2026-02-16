@@ -1,0 +1,37 @@
+🚀 Sprint 2 Batch 8/8 (FINAL): Generating 985 verse pages
+
+📋 Configuration:
+   Verse range: 6791-7775
+   Target: 985 verses
+   Rate limit: 10 requests/minute
+   Model: claude-sonnet-4-20250514
+   Progress interval: every 100 verses
+
+📋 Selecting verses 6791-7775 (Batch 8/8 - FINAL)...
+
+✅ Selected 985 verses
+   Range: 6791-7775
+   Books covered: 3
+
+[1/985] (0.1%) Judges 6:36 (ID: 6791)
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:210 M:228 A:299 P:218)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Content too short (C:222 M:244 A:290 P:215)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:220 M:256 A:304 P:225)
+   💾 Saving to database...
+   ✅ Complete!
+[2/985] (0.2%) Judges 6:37 (ID: 6792)
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:207 M:227 A:258 P:201)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Content too short (C:194 M:215 A:266 P:219)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:210 M:234 A:284 P:237)
+   💾 Saving to database...
+   ✅ Complete!
+[3/985] (0.3%) Judges 6:38 (ID: 6793)
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:223 M:253 A:311 P:240)
+   🔄 Retrying (attempt 2/3)...

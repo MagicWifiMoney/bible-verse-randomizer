@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:58:25.548612",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about PTSD",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1145 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160758-1040-0399-0000-f14064df0c5b",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.1003 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about PTSD",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about ptsd",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about ptsd",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-01-22 04:09:57 +00:00",
+                "competition": 0.06,
+                "competition_level": "LOW",
+                "cpc": 0.03,
+                "search_volume": 170,
+                "low_top_of_page_bid": 0.01,
+                "high_top_of_page_bid": 0.03,
+                "categories": [
+                  10006,
+                  10366,
+                  13493
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 170
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -21,
+                  "quarterly": -21,
+                  "yearly": -21
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "bible verses for ptsd",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20ptsd&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 510000,
+                "last_updated_time": "2026-02-01 10:18:27 +00:00",
+                "previous_updated_time": "2025-12-16 19:07:01 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 9.1,
+                "dofollow": 7.8,
+                "referring_pages": 8.1,
+                "referring_domains": 3.0,
+                "referring_main_domains": 2.9,
+                "rank": 48.2,
+                "main_domain_rank": 462.5,
+                "last_updated_time": "2026-02-01 08:18:28 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-03-03 19:07:38 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IHB0c2QiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6dHJ1ZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6NTAsIm9mZnNldCI6MCwiYWlkIjoxMDQwODcsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjAyMTYwNzU4LTEwNDAtMDM5OS0wMDAwLWYxNDA2NGRmMGM1YiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiYTRiZmZjMDgtOWI3Zi00ZGZkLThhOTUtMDkyOTZmNDU0OGNjIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMTcwLCJhOTk2NDZlMy02ZTM0LTBiZTYtMTQ0NS0wMThlMzA3YjhmYzIiXX0=",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "bible verses about ptsd",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-22 04:09:57 +00:00",
+                  "competition": 0.06,
+                  "competition_level": "LOW",
+                  "cpc": 0.03,
+                  "search_volume": 170,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.03,
+                  "categories": [
+                    10006,
+                    10366,
+                    13493
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 170
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -21,
+                    "quarterly": -21,
+                    "yearly": -21
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "bible verses for ptsd",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 9.1,
+                  "dofollow": 7.8,
+                  "referring_pages": 8.1,
+                  "referring_domains": 3.0,
+                  "referring_main_domains": 2.9,
+                  "rank": 48.2,
+                  "main_domain_rank": 462.5,
+                  "last_updated_time": "2026-02-01 08:18:28 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-03-03 19:07:38 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

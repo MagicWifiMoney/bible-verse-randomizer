@@ -1,0 +1,55 @@
+🚀 Sprint 2 Batch 2: Generating 970 verse pages
+
+📋 Configuration:
+   Target: 970 verses
+   Rate limit: 10 requests/minute
+   Model: claude-sonnet-4-20250514
+   Progress interval: every 100 verses
+
+📋 Selecting next 970 verses (Batch 2)...
+
+   John: 100 verses (offset 100)
+   Psalms: 100 verses (offset 100)
+   Proverbs: 100 verses (offset 100)
+   Matthew: 100 verses (offset 100)
+   Romans: 100 verses (offset 100)
+   Genesis: 100 verses (offset 100)
+   Isaiah: 100 verses (offset 100)
+   Philippians: 4 verses (offset 100)
+   Ephesians: 55 verses (offset 100)
+   James: 8 verses (offset 100)
+   1 Corinthians: 150 verses (offset 0)
+   Galatians: 149 verses (offset 0)
+
+✅ Selected 970 verses
+   Books covered: 12
+
+[1/970] (0.1%) John 3:25
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:218 M:248 A:304 P:233)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Content too short (C:238 M:258 A:312 P:257)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:225 M:245 A:286 P:221)
+   💾 Saving to database...
+   ✅ Complete!
+[2/970] (0.2%) John 3:26
+   🤖 Generating AI content...
+   ⚠️  Error: Expected ',' or '}' after property value in JSON at position 1612 (line 4 column 3)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Content too short (C:218 M:253 A:358 P:233)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:226 M:248 A:336 P:227)
+   💾 Saving to database...
+   ✅ Complete!
+[3/970] (0.3%) John 3:27
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:220 M:258 A:345 P:223)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Error: Expected ',' or '}' after property value in JSON at position 1725 (line 4 column 3)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:206 M:225 A:271 P:232)
+   💾 Saving to database...
+   ✅ Complete!
+[4/970] (0.4%) John 3:28
+   🤖 Generating AI content...

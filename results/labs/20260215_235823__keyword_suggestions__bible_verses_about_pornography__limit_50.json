@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "saved_at": "2026-02-15T23:58:23.010154",
+    "category": "labs",
+    "operation": "keyword_suggestions",
+    "keyword": "bible verses about pornography",
+    "extra_info": "limit_50"
+  },
+  "data": {
+    "version": "0.1.20260209",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.0690 sec.",
+    "cost": 0.0101,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+      {
+        "id": "02160758-1040-0399-0000-decc8839492d",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "0.0569 sec.",
+        "cost": 0.0101,
+        "result_count": 1,
+        "path": [
+          "v3",
+          "dataforseo_labs",
+          "google",
+          "keyword_suggestions",
+          "live"
+        ],
+        "data": {
+          "api": "dataforseo_labs",
+          "function": "keyword_suggestions",
+          "se_type": "google",
+          "keyword": "bible verses about pornography",
+          "location_name": "United States",
+          "location_code": null,
+          "language_name": "English",
+          "language_code": null,
+          "include_seed_keyword": true,
+          "include_serp_info": false,
+          "exact_match": null,
+          "filters": null,
+          "order_by": null,
+          "limit": 50,
+          "offset": null,
+          "tag": null
+        },
+        "result": [
+          {
+            "se_type": "google",
+            "seed_keyword": "bible verses about pornography",
+            "seed_keyword_data": {
+              "se_type": "google",
+              "keyword": "bible verses about pornography",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-01-28 09:06:07 +00:00",
+                "competition": 0.11,
+                "competition_level": "LOW",
+                "cpc": 0.79,
+                "search_volume": 320,
+                "low_top_of_page_bid": 0.01,
+                "high_top_of_page_bid": 0.32,
+                "categories": [
+                  10108,
+                  10581
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 3,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 2,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 1,
+                    "search_volume": 320
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -18,
+                  "quarterly": -18,
+                  "yearly": 23
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": {
+                "se_type": "google",
+                "check_url": "https://www.google.com/search?q=bible%20verses%20about%20pornography&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "perspectives",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 1450000,
+                "last_updated_time": "2026-02-12 10:14:21 +00:00",
+                "previous_updated_time": "2025-12-29 09:17:32 +00:00"
+              },
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 110.2,
+                "dofollow": 15.6,
+                "referring_pages": 108.4,
+                "referring_domains": 88.2,
+                "referring_main_domains": 80.0,
+                "rank": 44.2,
+                "main_domain_rank": 472.6,
+                "last_updated_time": "2026-02-12 08:14:22 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2023-07-13 16:54:06 +00:00"
+              }
+            },
+            "location_code": 2840,
+            "language_code": "en",
+            "total_count": 1,
+            "items_count": 1,
+            "offset": 0,
+            "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYmlibGUgdmVyc2VzIGFib3V0IHBvcm5vZ3JhcGh5IiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOnRydWUsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjUwLCJvZmZzZXQiOjAsImFpZCI6MTA0MDg3LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwMjE2MDc1OC0xMDQwLTAzOTktMDAwMC1kZWNjODgzOTQ5MmQiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjEyNzg5MTMxLTNmMjMtNDFiMC1iODkzLTY5OTIzZTBiMWEyYiIsIlNlYXJjaEFmdGVyRGF0YSI6WzMyMCwiNDhhNjRjMDQtYTVhNS05YmRjLTc3OWQtMWJiOTFjODQ0ZTlmIl19",
+            "items": [
+              {
+                "se_type": "google",
+                "keyword": "bible verses about pornography",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-01-28 09:06:07 +00:00",
+                  "competition": 0.11,
+                  "competition_level": "LOW",
+                  "cpc": 0.79,
+                  "search_volume": 320,
+                  "low_top_of_page_bid": 0.01,
+                  "high_top_of_page_bid": 0.32,
+                  "categories": [
+                    10108,
+                    10581
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 6,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 5,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 4,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 3,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 2,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 1,
+                      "search_volume": 320
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -18,
+                    "quarterly": -18,
+                    "yearly": 23
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false,
+                  "words_count": 4
+                },
+                "serp_info": null,
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 110.2,
+                  "dofollow": 15.6,
+                  "referring_pages": 108.4,
+                  "referring_domains": 88.2,
+                  "referring_main_domains": 80.0,
+                  "rank": 44.2,
+                  "main_domain_rank": 472.6,
+                  "last_updated_time": "2026-02-12 08:14:22 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2023-07-13 16:54:06 +00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

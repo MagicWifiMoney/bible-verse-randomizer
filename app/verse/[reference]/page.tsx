@@ -20,8 +20,8 @@ import { getRelatedLinks } from '@/lib/seo/internal-links';
 // ISR: Revalidate every 24 hours
 export const revalidate = 86400;
 
-// Import static verse data loader
-import { getVerseData, getAllVerses, getPopularInBook } from '@/lib/verse-data';
+// Import database verse data loader
+import { getVerseData, getAllVerses, getPopularInBook } from '@/lib/verse-data-db';
 
 /**
  * Generate metadata for SEO

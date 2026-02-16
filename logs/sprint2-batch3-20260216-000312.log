@@ -1,0 +1,39 @@
+🚀 Sprint 2 Batch 3: Generating 970 verse pages
+
+📋 Configuration:
+   Verse ID range: 1941 - 2910
+   Target: 970 verses
+   Rate limit: 10 requests/minute
+   Model: claude-sonnet-4-20250514
+   Progress interval: every 100 verses
+
+📋 Selecting verses 1941 to 2910...
+
+✅ Selected 970 verses
+
+📚 Books covered:
+   Exodus: 906 verses
+   Leviticus: 64 verses
+
+[1/970] (0.1%) Exodus 12:24 (ID: 1941)
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:221 M:242 A:293 P:197)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Content too short (C:210 M:223 A:287 P:215)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:222 M:238 A:301 P:225)
+   💾 Saving to database...
+   ✅ Complete!
+[2/970] (0.2%) Exodus 12:25 (ID: 1942)
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:232 M:253 A:309 P:247)
+   🔄 Retrying (attempt 2/3)...
+   ⚠️  Content too short (C:220 M:238 A:332 P:203)
+   🔄 Retrying (attempt 3/3)...
+   ⚠️  Content too short (C:198 M:238 A:295 P:210)
+   💾 Saving to database...
+   ✅ Complete!
+[3/970] (0.3%) Exodus 12:26 (ID: 1943)
+   🤖 Generating AI content...
+   ⚠️  Content too short (C:252 M:263 A:345 P:237)
+   🔄 Retrying (attempt 2/3)...

@@ -1,0 +1,47 @@
+[2026-02-16T06:08:24.625Z] 
+======================================================================
+[2026-02-16T06:08:24.641Z] 🚀 SPRINT 4 BATCH 1: Generate 417 Intent Pages
+[2026-02-16T06:08:24.676Z] ======================================================================
+
+[2026-02-16T06:08:24.676Z] Target: Intents 1-417
+[2026-02-16T06:08:24.677Z] Start time: 2026-02-16T06:08:24.677Z
+[2026-02-16T06:08:24.677Z] Rate limit: 10 requests/min
+
+[2026-02-16T06:08:24.679Z] 📋 Loading intents 1-417...
+
+[2026-02-16T06:08:24.708Z] ✅ Loaded 417 intents for batch 1
+[2026-02-16T06:08:24.709Z]    Top intent: For Tattoos (8900/mo)
+[2026-02-16T06:08:24.711Z]    Last intent: Discipline Nlt (577/mo)
+
+[2026-02-16T06:08:24.712Z] 
+[1/417] Processing: For Tattoos (for-tattoos)
+[2026-02-16T06:08:24.712Z]    Search volume: 8900/mo | Competition: 55%
+[2026-02-16T06:08:24.767Z]    Fetched 25 verses
+[2026-02-16T06:08:24.767Z]    Generating content...
+[2026-02-16T06:09:45.766Z]    Generated: 263 intro words, 331 guidance words, 10 FAQs
+[2026-02-16T06:09:45.784Z]    ❌ FAILED: column "title" of relation "intent_pages" does not exist
+[2026-02-16T06:09:51.786Z] 
+[2/417] Processing: For Weddings (for-weddings)
+[2026-02-16T06:09:51.786Z]    Search volume: 7200/mo | Competition: 45%
+[2026-02-16T06:09:51.791Z]    Fetched 25 verses
+[2026-02-16T06:09:51.791Z]    Generating content...
+[2026-02-16T06:10:28.306Z] 
+======================================================================
+[2026-02-16T06:10:28.311Z] 🚀 SPRINT 4 BATCH 1: Generate 417 Intent Pages
+[2026-02-16T06:10:28.311Z] ======================================================================
+
+[2026-02-16T06:10:28.311Z] Target: Intents 1-417
+[2026-02-16T06:10:28.311Z] Start time: 2026-02-16T06:10:28.311Z
+[2026-02-16T06:10:28.311Z] Rate limit: 10 requests/min
+
+[2026-02-16T06:10:28.311Z] 📋 Loading intents 1-417...
+
+[2026-02-16T06:10:28.317Z] ✅ Loaded 417 intents for batch 1
+[2026-02-16T06:10:28.317Z]    Top intent: For Tattoos (8900/mo)
+[2026-02-16T06:10:28.317Z]    Last intent: Discipline Nlt (577/mo)
+
+[2026-02-16T06:10:28.318Z] 
+[1/417] Processing: For Tattoos (for-tattoos)
+[2026-02-16T06:10:28.318Z]    Search volume: 8900/mo | Competition: 55%
+[2026-02-16T06:10:28.371Z]    Fetched 25 verses
+[2026-02-16T06:10:28.371Z]    Generating content...

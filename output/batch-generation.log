@@ -18,3 +18,47 @@
    Generating: John 1:4
    ✓ Generated successfully
    Generating: John 1:5
+   ✓ Generated successfully
+   Generating: John 1:6
+   ✓ Generated successfully
+   Generating: John 1:7
+   ✓ Generated successfully
+   Generating: John 1:8
+   ✗ Failed: Expected ',' or '}' after property value in JSON at position 1185 (line 4 column 3)
+   Generating: John 1:9
+   ✓ Generated successfully
+   Generating: John 1:10
+   ✓ Generated successfully
+   Generating: John 1:11
+   ✓ Generated successfully
+   Generating: John 1:12
+   ✓ Generated successfully
+   Generating: John 1:13
+   ✓ Generated successfully
+   Generating: John 1:14
+   ✗ Failed: Expected ',' or '}' after property value in JSON at position 1253 (line 4 column 3)
+   Generating: John 1:15
+   ✗ Failed: Expected ',' or '}' after property value in JSON at position 1287 (line 4 column 3)
+   Generating: John 1:16
+   ✓ Generated successfully
+   Generating: John 1:17
+   ✓ Generated successfully
+   Generating: John 1:18
+   ✗ Failed: Expected ',' or '}' after property value in JSON at position 1279 (line 4 column 3)
+   Generating: John 1:19
+   ✓ Generated successfully
+   Generating: John 1:20
+   ✓ Generated successfully
+   Generating: John 1:21
+   ✓ Generated successfully
+   Generating: John 1:22
+   ✓ Generated successfully
+   Generating: John 1:23
+   ✓ Generated successfully
+   Generating: John 1:24
+   ✓ Generated successfully
+   Generating: John 1:25
+   ✓ Generated successfully
+   Generating: John 1:26
+   ✓ Generated successfully
+   Generating: John 1:27

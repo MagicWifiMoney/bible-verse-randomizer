@@ -1,0 +1,19 @@
+🚀 Starting Sprint 4 Batch 3: Intent-Verse Associations
+
+📊 Batch: 835-1250 (416 intents)
+📈 Target: 15-25 verses per intent
+⏱️  Rate limit: 6000ms between AI requests
+
+📋 Loaded batch: intents 835-1250
+   Total in batch: 416
+   First: "Justice For Social Media" (justice-for-social-media)
+   Last: "Service For Teens" (service-for-teens)
+
+
+[1/416] Processing: "Justice For Social Media"
+   Intent page ID: 17
+   🤖 Selecting verses with AI...
+   Found 100 candidate verses
+   ⚠️  Retry 1/2 for "Justice For Social Media": 404 {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-sonnet-20241022"},"request_id":"req_011CYBFVzBCNR6p7VqZ4Zhte"}
+   Found 100 candidate verses
+   ⚠️  Retry 2/2 for "Justice For Social Media": 404 {"type":"error","error":{"type":"not_found_error","message":"model: claude-3-5-sonnet-20241022"},"request_id":"req_011CYBFWxcDms1MuG9TZHEVa"}
