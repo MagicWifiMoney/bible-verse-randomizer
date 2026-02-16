@@ -31,16 +31,21 @@ async function saveContent(slug, content) {
       slug
     ]);
     
+    // Delete existing FAQs first
+    await pool.query(`
+      DELETE FROM faqs
+      WHERE entity_type = 'verse' AND entity_id IN (SELECT id FROM verses WHERE slug = $1)
+    `, [slug]);
+    
     // Save FAQs
-    for (const faq of content.faqs) {
+    for (let i = 0; i < content.faqs.length; i++) {
+      const faq = content.faqs[i];
       await pool.query(`
-        INSERT INTO faqs (page_type, page_id, question, answer)
-        SELECT 'verse', id, $1, $2
+        INSERT INTO faqs (entity_type, entity_id, question, answer, order_index)
+        SELECT 'verse', id, $1, $2, $3
         FROM verses
-        WHERE slug = $3
-        ON CONFLICT (page_type, page_id, question) DO UPDATE
-        SET answer = EXCLUDED.answer
-      `, [faq.question, faq.answer, slug]);
+        WHERE slug = $4
+      `, [faq.question, faq.answer, i + 1, slug]);
     }
     
     console.log(`✅ Saved: ${slug}`);
