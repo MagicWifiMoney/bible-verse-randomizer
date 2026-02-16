@@ -1,0 +1,10 @@
+# Bible Verse Randomizer - robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bibleverserandomizer.com/sitemap-0.xml
+
+# Crawl delay
+Crawl-delay: 1
