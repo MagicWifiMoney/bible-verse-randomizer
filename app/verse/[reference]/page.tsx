@@ -26,8 +26,9 @@ import { getVerseData, getAllVerses, getPopularInBook } from '@/lib/verse-data';
 /**
  * Generate metadata for SEO
  */
-export async function generateMetadata({ params }: { params: { reference: string } }): Promise<Metadata> {
-  const verse = await getVerseData(params.reference);
+export async function generateMetadata({ params }: { params: Promise<{ reference: string }> }): Promise<Metadata> {
+  const { reference } = await params;
+  const verse = await getVerseData(reference);
   
   if (!verse) {
     return {
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: { params: { reference: string
 export async function generateStaticParams() {
   const allVerses = getAllVerses();
   
-  return allVerses.map(slug => ({
+  return allVerses.map((slug: string) => ({
     reference: slug
   }));
 }
@@ -61,8 +62,9 @@ export async function generateStaticParams() {
 /**
  * Main page component
  */
-export default async function VersePageRoute({ params }: { params: { reference: string } }) {
-  const verse = await getVerseData(params.reference);
+export default async function VersePageRoute({ params }: { params: Promise<{ reference: string }> }) {
+  const { reference } = await params;
+  const verse = await getVerseData(reference);
 
   if (!verse) {
     notFound();
@@ -80,7 +82,7 @@ export default async function VersePageRoute({ params }: { params: { reference: 
   const schema = buildPageSchemas({
     pageType: 'verse',
     data: verse,
-    pathname: `/verse/${params.reference}`,
+    pathname: `/verse/${reference}`,
     currentPageName: `${verse.book} ${verse.chapter}:${verse.verse}`
   });
 

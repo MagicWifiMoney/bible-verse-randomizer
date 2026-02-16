@@ -5,16 +5,11 @@
  */
 
 import { VersePageData } from '@/components/templates/VersePage';
-import fs from 'fs';
-import path from 'path';
-
-// Load verses data from JSON file
-const versesPath = path.join(process.cwd(), 'public/api/verses.json');
-const versesData = JSON.parse(fs.readFileSync(versesPath, 'utf8'));
-const verses = versesData as Record<string, any>;
+import { getStaticVerse, hasVerse } from './verses-static';
 
 export async function getVerseData(reference: string): Promise<VersePageData | null> {
-  const verseData = verses[reference as keyof typeof verses];
+  console.log('[getVerseData] Looking for:', reference, 'exists:', hasVerse(reference));
+  const verseData = getStaticVerse(reference);
   
   if (!verseData) {
     return null;
@@ -112,17 +107,19 @@ function extractTopics(reference: string): Array<{ id: number; name: string; slu
  * Get all available verses
  */
 export function getAllVerses() {
-  return Object.keys(verses);
+  const { getAllVersesSlugs } = require('./verses-static');
+  return getAllVersesSlugs();
 }
 
 /**
  * Get popular verses in same book
  */
 export async function getPopularInBook(book: string, currentSlug: string) {
-  const allVerses = Object.values(verses);
+  const { staticVerses } = require('./verses-static');
+  const allVerses = Object.values(staticVerses);
   return allVerses
-    .filter(v => v.book === book && v.slug !== currentSlug)
-    .map(v => ({
+    .filter((v: any) => v.book === book && v.slug !== currentSlug)
+    .map((v: any) => ({
       book: v.book,
       chapter: v.chapter,
       verse: v.verse,
