@@ -8,7 +8,6 @@ import { VersePageData } from '@/components/templates/VersePage';
 import { getStaticVerse, hasVerse } from './verses-static';
 
 export async function getVerseData(reference: string): Promise<VersePageData | null> {
-  console.log('[getVerseData] Looking for:', reference, 'exists:', hasVerse(reference));
   const verseData = getStaticVerse(reference);
   
   if (!verseData) {
