@@ -75,7 +75,7 @@ export function buildArticleSchema(data: ArticleSchemaInput) {
  * Build FAQ schema
  * Based on schema.org/FAQPage
  */
-export function buildFAQSchema(faqs: FAQItem[], pageUrl: string) {
+export function buildFAQSchema(faqs: FAQItem[], pageUrl: string): any {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
