@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllTopicSlugs } from '@/lib/topic-data';
 import { getAllIntentSlugs } from '@/lib/intent-data';
 import { getAllBookSlugs } from '@/lib/book-data';
+import { getAllChapterParams } from '@/lib/chapter-data';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://bibleverserandomizer.com';
@@ -70,5 +71,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...topicPages, ...intentPages, ...bookPages];
+  // Chapter pages (1,189 pages)
+  const chapterPages: MetadataRoute.Sitemap = getAllChapterParams().map(p => ({
+    url: `${baseUrl}/book/${p.book}/${p.chapter}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.5,
+  }));
+
+  return [...staticPages, ...topicPages, ...intentPages, ...bookPages, ...chapterPages];
 }
