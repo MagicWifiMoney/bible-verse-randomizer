@@ -42,40 +42,40 @@ export default function Home() {
 
   const generateNewVerse = () => {
     setIsTransitioning(true);
-    
+
     setTimeout(() => {
       const newVerse = getRandomVerse(selectedTopic);
       setCurrentVerse(newVerse);
-      
+
       // Update history
       const newHistory = [newVerse, ...history.slice(0, 19)];
       setHistory(newHistory);
       localStorage.setItem('history', JSON.stringify(newHistory));
-      
+
       // Update verse count
       const newCount = verseCount + 1;
       setVerseCount(newCount);
       localStorage.setItem('verseCount', newCount.toString());
-      
+
       // Show email popup after 3rd verse
       if (newCount === 3 && !localStorage.getItem('hasSubscribed')) {
         setTimeout(() => setShowEmailPopup(true), 2000);
       }
-      
+
       // Show sermon CTA after every 5th verse
       if (newCount % 5 === 0) {
         setTimeout(() => setShowSermonCTA(true), 3000);
       }
-      
+
       setIsTransitioning(false);
     }, 300);
   };
 
   const toggleFavorite = () => {
     if (!currentVerse) return;
-    
+
     const isFavorited = favorites.some(f => f.reference === currentVerse.reference);
-    
+
     if (isFavorited) {
       const newFavorites = favorites.filter(f => f.reference !== currentVerse.reference);
       setFavorites(newFavorites);
@@ -135,6 +135,12 @@ export default function Home() {
         )}
 
         <footer className="mt-16 text-center text-slate-600 border-t border-slate-200 pt-8">
+          <nav className="mb-6 flex flex-wrap justify-center gap-4 text-sm">
+            <a href="/topics" className="text-amber-600 hover:text-amber-800 font-medium">Browse by Topic</a>
+            <a href="/for" className="text-amber-600 hover:text-amber-800 font-medium">Browse by Occasion</a>
+            <a href="/books" className="text-amber-600 hover:text-amber-800 font-medium">Books of the Bible</a>
+            <a href="/daily" className="text-amber-600 hover:text-amber-800 font-medium">Daily Verse</a>
+          </nav>
           <p className="mb-2">
             <strong>From the makers of Sermon Clips</strong>
           </p>

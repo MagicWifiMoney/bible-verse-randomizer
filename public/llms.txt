@@ -1,0 +1,39 @@
+# Bible Verse Randomizer
+
+> Free random Bible verse generator and comprehensive Scripture resource. Explore 31,000+ verses by topic, occasion, or book.
+
+## About
+
+Bible Verse Randomizer helps people discover God's Word through a random verse generator, topical browsing, and occasion-based Scripture discovery. The site covers all 66 books of the Bible with summaries, themes, and key verses.
+
+## Main Sections
+
+- [Home](https://bibleverserandomizer.com/): Random Bible verse generator with topic filtering
+- [Browse by Topic](https://bibleverserandomizer.com/topics): Bible verses organized by theme — love, faith, hope, forgiveness, strength, and more
+- [Browse by Occasion](https://bibleverserandomizer.com/for): Find the perfect verse for weddings, funerals, tattoos, graduations, and hundreds of life situations
+- [Books of the Bible](https://bibleverserandomizer.com/books): All 66 books with summaries, themes, chapter counts, and key verses
+- [Daily Verse](https://bibleverserandomizer.com/daily): A new Bible verse every day
+
+## Content Types
+
+### Topic Pages (/topic/[slug])
+Each topic page contains curated Bible verses about a specific theme (e.g., love, faith, healing). Verses are selected based on keyword relevance and include the full text from the NIV translation.
+
+### Occasion Pages (/for/[slug])
+Occasion pages help users find Bible verses for specific life events or situations — weddings, funerals, graduations, tattoos, comfort in grief, and more. Verses are categorized by situation type.
+
+### Book Pages (/book/[slug])
+Book overview pages cover all 66 books of the Bible with:
+- Author and approximate date written
+- Chapter and verse counts
+- Comprehensive summary
+- Key themes with descriptions
+- Notable key verses
+
+## Data Sources
+
+Content is sourced from public domain Bible translations and curated by the Bible Verse Randomizer editorial team. All verse text is from established Bible translations.
+
+## Contact
+
+Website: https://bibleverserandomizer.com
