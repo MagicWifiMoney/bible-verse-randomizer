@@ -10,7 +10,7 @@ import priorityVerses from '@/data/priority-1000.json';
 interface RawIntent { slug: string; title: string; searchVolume: number; competition: number | null; }
 interface PriorityVerse { id: number; book: string; chapter: number; verse: number; slug: string; text_niv: string; }
 
-const MIN_SEARCH_VOLUME = 800;
+const MIN_SEARCH_VOLUME = 200;
 
 function categorizeIntent(slug: string): string {
     if (slug.includes('tattoo')) return 'Tattoo Inspiration';

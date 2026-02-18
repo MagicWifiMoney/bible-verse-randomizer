@@ -29,7 +29,7 @@ interface PriorityVerse {
 
 // ── Constants ──────────────────────────────────────────────────
 
-const MIN_SEARCH_VOLUME = 5000;
+const MIN_SEARCH_VOLUME = 1000;
 
 /**
  * Canonical topic groups — map variant slugs back to a single canonical page.

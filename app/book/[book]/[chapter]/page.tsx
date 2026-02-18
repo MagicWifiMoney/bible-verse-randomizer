@@ -227,6 +227,24 @@ export default async function ChapterPage({ params }: { params: Promise<{ book: 
                     </div>
                 </section>
 
+                {/* Read in Other Translations */}
+                <section className="mt-10 border-t border-slate-200 pt-6">
+                    <h2 className="text-lg font-semibold text-slate-800 mb-3">
+                        Read {data.bookName} {data.chapter} in Other Translations
+                    </h2>
+                    <div className="flex flex-wrap gap-2">
+                        {['kjv', 'esv', 'nlt', 'msg', 'nasb'].map(t => (
+                            <Link
+                                key={t}
+                                href={`/book/${book}/${data.chapter}/${t}`}
+                                className="px-4 py-2 rounded-full bg-slate-100 text-slate-700 hover:bg-amber-50 hover:text-amber-700 text-sm font-medium transition-colors"
+                            >
+                                {t.toUpperCase()}
+                            </Link>
+                        ))}
+                    </div>
+                </section>
+
                 {/* Hub Cross-Links */}
                 <nav className="mt-10 border-t border-slate-200 pt-6 flex flex-wrap gap-4 text-sm">
                     <Link href="/topics" className="text-amber-600 hover:text-amber-800 font-medium">Browse by Topic</Link>

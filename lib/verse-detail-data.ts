@@ -1,0 +1,209 @@
+/**
+ * Verse Detail Data Loader (JSON-based)
+ * 
+ * Replaces database dependency for verse pages.
+ * Loads all 6 translations for the top 1,000 priority verses
+ * from the existing JSON data files.
+ */
+
+import priorityVerses from '@/data/priority-1000.json';
+import nivVerses from '@/data/NIV.json';
+import kjvVerses from '@/data/KJV.json';
+import esvVerses from '@/data/ESV.json';
+import nltVerses from '@/data/NLT.json';
+import msgVerses from '@/data/MSG.json';
+import nasbVerses from '@/data/NASB.json';
+import { VersePageData } from '@/components/templates/VersePage';
+
+interface PriorityVerse {
+    id: number;
+    book: string;
+    chapter: number;
+    verse: number;
+    slug: string;
+    text_niv: string;
+}
+
+interface RawTranslationVerse {
+    pk: number;
+    translation: string;
+    book: number;
+    chapter: number;
+    verse: number;
+    text: string;
+    comment?: string;
+}
+
+// Book number (1-based NIV.json) → name mapping
+const BOOK_NAMES: string[] = [
+    'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy',
+    'Joshua', 'Judges', 'Ruth', '1 Samuel', '2 Samuel',
+    '1 Kings', '2 Kings', '1 Chronicles', '2 Chronicles', 'Ezra',
+    'Nehemiah', 'Esther', 'Job', 'Psalms', 'Proverbs',
+    'Ecclesiastes', 'Song of Solomon', 'Isaiah', 'Jeremiah', 'Lamentations',
+    'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos',
+    'Obadiah', 'Jonah', 'Micah', 'Nahum', 'Habakkuk',
+    'Zephaniah', 'Haggai', 'Zechariah', 'Malachi',
+    'Matthew', 'Mark', 'Luke', 'John', 'Acts',
+    'Romans', '1 Corinthians', '2 Corinthians', 'Galatians', 'Ephesians',
+    'Philippians', 'Colossians', '1 Thessalonians', '2 Thessalonians',
+    '1 Timothy', '2 Timothy', 'Titus', 'Philemon', 'Hebrews',
+    'James', '1 Peter', '2 Peter', '1 John', '2 John',
+    '3 John', 'Jude', 'Revelation',
+];
+
+const BOOK_SLUGS: string[] = [
+    'genesis', 'exodus', 'leviticus', 'numbers', 'deuteronomy',
+    'joshua', 'judges', 'ruth', '1-samuel', '2-samuel',
+    '1-kings', '2-kings', '1-chronicles', '2-chronicles', 'ezra',
+    'nehemiah', 'esther', 'job', 'psalms', 'proverbs',
+    'ecclesiastes', 'song-of-solomon', 'isaiah', 'jeremiah', 'lamentations',
+    'ezekiel', 'daniel', 'hosea', 'joel', 'amos',
+    'obadiah', 'jonah', 'micah', 'nahum', 'habakkuk',
+    'zephaniah', 'haggai', 'zechariah', 'malachi',
+    'matthew', 'mark', 'luke', 'john', 'acts',
+    'romans', '1-corinthians', '2-corinthians', 'galatians', 'ephesians',
+    'philippians', 'colossians', '1-thessalonians', '2-thessalonians',
+    '1-timothy', '2-timothy', 'titus', 'philemon', 'hebrews',
+    'james', '1-peter', '2-peter', '1-john', '2-john',
+    '3-john', 'jude', 'revelation',
+];
+
+const OT_BOOKS = new Set(BOOK_NAMES.slice(0, 39));
+
+function nameToBookNum(name: string): number {
+    const idx = BOOK_NAMES.indexOf(name);
+    return idx >= 0 ? idx + 1 : -1;
+}
+
+function cleanKjvText(text: string): string {
+    return text.replace(/<S>\d+<\/S>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function cleanHtml(text: string): string {
+    return text.replace(/<br\/>/g, ' ').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// Pre-index translation verses by bookNum-chapter-verse
+function buildIndex(verses: RawTranslationVerse[]): Map<string, string> {
+    const map = new Map<string, string>();
+    for (const v of verses) {
+        map.set(`${v.book}-${v.chapter}-${v.verse}`, v.text);
+    }
+    return map;
+}
+
+// Build indexes at module load
+const nivIndex = buildIndex(nivVerses as RawTranslationVerse[]);
+const kjvIndex = buildIndex(kjvVerses as RawTranslationVerse[]);
+const esvIndex = buildIndex(esvVerses as RawTranslationVerse[]);
+const nltIndex = buildIndex(nltVerses as RawTranslationVerse[]);
+const msgIndex = buildIndex(msgVerses as RawTranslationVerse[]);
+const nasbIndex = buildIndex(nasbVerses as RawTranslationVerse[]);
+
+const allPriority = priorityVerses as PriorityVerse[];
+const slugToVerse = new Map<string, PriorityVerse>();
+for (const v of allPriority) {
+    slugToVerse.set(v.slug, v);
+}
+
+function generateContext(book: string, chapter: number, verse: number): string {
+    return `${book} ${chapter}:${verse} is found in the ${OT_BOOKS.has(book) ? 'Old' : 'New'} Testament, in the book of ${book}. This verse comes from chapter ${chapter}, which can be read in full at the ${book} chapter ${chapter} page. Understanding the surrounding passages helps illuminate the deeper meaning of this verse.`;
+}
+
+function generateMeaning(book: string, chapter: number, verse: number, text: string): string {
+    const snippet = text.substring(0, 120).replace(/<[^>]+>/g, '');
+    return `"${snippet}..." — ${book} ${chapter}:${verse} reveals truths about God's character and His purposes. This passage has been a source of comfort, guidance, and inspiration for believers across generations. The original biblical context enriches our understanding of how this verse applies today.`;
+}
+
+function generateApplication(book: string, chapter: number, verse: number): string {
+    return `As you reflect on ${book} ${chapter}:${verse}, consider how God's truth applies to your current circumstances. Scripture is living and active — it speaks into every season of life. Let this verse shape your thoughts, decisions, and relationships as you walk in faith.`;
+}
+
+function generatePrayer(book: string, chapter: number, verse: number): string {
+    return `Heavenly Father, thank You for the truth revealed in ${book} ${chapter}:${verse}. Open my heart to receive Your Word and transform my life. Help me apply this Scripture faithfully and share its hope with others. In Jesus' name, Amen.`;
+}
+
+/**
+ * Get all verse slugs for generateStaticParams
+ */
+export function getAllVerseSlugs(): string[] {
+    return allPriority.map(v => v.slug);
+}
+
+/**
+ * Get verse data from JSON files (replaces DB dependency)
+ */
+export function getVerseDetailData(slug: string): VersePageData | null {
+    const pv = slugToVerse.get(slug);
+    if (!pv) return null;
+
+    const bookNum = nameToBookNum(pv.book);
+    if (bookNum < 0) return null;
+
+    const key = `${bookNum}-${pv.chapter}-${pv.verse}`;
+    const bookSlugIdx = BOOK_NAMES.indexOf(pv.book);
+
+    const nivText = nivIndex.get(key) || pv.text_niv;
+    const kjvText = kjvIndex.get(key);
+    const esvText = esvIndex.get(key);
+    const nltText = nltIndex.get(key);
+    const msgText = msgIndex.get(key);
+    const nasbText = nasbIndex.get(key);
+
+    const cleanedNiv = cleanHtml(nivText);
+    const cleanedKjv = kjvText ? cleanKjvText(kjvText) : undefined;
+    const cleanedEsv = esvText ? cleanHtml(esvText) : undefined;
+    const cleanedNlt = nltText ? cleanHtml(nltText) : undefined;
+    const cleanedMsg = msgText ? cleanHtml(msgText) : undefined;
+    const cleanedNasb = nasbText ? cleanHtml(nasbText) : undefined;
+
+    // Generate FAQs
+    const faqs = [
+        {
+            question: `What does ${pv.book} ${pv.chapter}:${pv.verse} mean?`,
+            answer: generateMeaning(pv.book, pv.chapter, pv.verse, cleanedNiv),
+        },
+        {
+            question: `What is the context of ${pv.book} ${pv.chapter}:${pv.verse}?`,
+            answer: generateContext(pv.book, pv.chapter, pv.verse),
+        },
+        {
+            question: `How does ${pv.book} ${pv.chapter}:${pv.verse} read in other translations?`,
+            answer: `${pv.book} ${pv.chapter}:${pv.verse} is available in 6 translations on Bible Verse Randomizer: NIV, KJV, ESV, NLT, MSG, and NASB. Each translation offers unique insights — compare them all on the ${pv.book} ${pv.chapter}:${pv.verse} comparison page.`,
+        },
+    ];
+
+    return {
+        id: pv.id,
+        book: pv.book,
+        chapter: pv.chapter,
+        verse: pv.verse,
+        slug: pv.slug,
+        testament: OT_BOOKS.has(pv.book) ? 'Old Testament' : 'New Testament',
+        text_niv: cleanedNiv,
+        text_kjv: cleanedKjv,
+        text_esv: cleanedEsv,
+        text_nlt: cleanedNlt,
+        text_msg: cleanedMsg,
+        text_nasb: cleanedNasb,
+        context: generateContext(pv.book, pv.chapter, pv.verse),
+        meaning: generateMeaning(pv.book, pv.chapter, pv.verse, cleanedNiv),
+        application: generateApplication(pv.book, pv.chapter, pv.verse),
+        prayer: generatePrayer(pv.book, pv.chapter, pv.verse),
+        topics: [], // Topic matching via keyword done at page level
+        cross_references: [],
+        faqs,
+        popularity_score: 1000 - pv.id + 1, // Higher ID = lower priority
+    };
+}
+
+/**
+ * Get popular verses in same book (for "More in this book" links)
+ */
+export function getPopularInBook(book: string, currentSlug: string, limit = 5): Array<{ book: string; chapter: number; verse: number; slug: string }> {
+    return allPriority
+        .filter(v => v.book === book && v.slug !== currentSlug)
+        .slice(0, limit)
+        .map(v => ({ book: v.book, chapter: v.chapter, verse: v.verse, slug: v.slug }));
+}

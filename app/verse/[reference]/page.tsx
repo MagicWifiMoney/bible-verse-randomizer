@@ -1,84 +1,53 @@
 /**
- * Verse Page - Dynamic Route
+ * Verse Page - JSON-powered (no DB dependency)
  * 
  * Route: /verse/[reference]
  * Example: /verse/john-3-16
  * 
- * Uses ISR (Incremental Static Regeneration)
- * - Revalidate every 24 hours
- * - Pre-build top 1,000 verses
- * - Generate others on-demand
+ * Pre-generates 1,000 verse pages from priority-1000.json
+ * with all 6 translations loaded from JSON data files.
  */
 
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import VersePage, { VersePageData } from '@/components/templates/VersePage';
-import { generateMetadata as generateSEOMetadata } from '@/lib/seo/metadata-factory';
+import VersePage from '@/components/templates/VersePage';
 import { buildPageSchemas } from '@/lib/seo/schema-builders';
-import { getRelatedLinks } from '@/lib/seo/internal-links';
+import { getAllVerseSlugs, getVerseDetailData, getPopularInBook } from '@/lib/verse-detail-data';
 
-// ISR: Revalidate every 24 hours
-export const revalidate = 86400;
+export const dynamicParams = false;
 
-// Import database verse data loader
-import { getVerseData, getAllVerses, getPopularInBook } from '@/lib/verse-data-db';
+export async function generateStaticParams() {
+  return getAllVerseSlugs().map(slug => ({ reference: slug }));
+}
 
-/**
- * Generate metadata for SEO
- */
 export async function generateMetadata({ params }: { params: Promise<{ reference: string }> }): Promise<Metadata> {
   const { reference } = await params;
-  const verse = await getVerseData(reference);
-  
-  if (!verse) {
-    return {
-      title: 'Verse Not Found',
-      description: 'The requested Bible verse could not be found.'
-    };
-  }
+  const verse = getVerseDetailData(reference);
+  if (!verse) return { title: 'Verse Not Found' };
 
-  return generateSEOMetadata('verse', {
-    book: verse.book,
-    chapter: verse.chapter,
-    verse: verse.verse,
-    text: verse.text_niv || verse.text_kjv || '',
-    slug: verse.slug,
-    topics: verse.topics?.map(t => t.name)
-  });
+  const title = `${verse.book} ${verse.chapter}:${verse.verse} — Meaning, Context & All Translations`;
+  const desc = `Read ${verse.book} ${verse.chapter}:${verse.verse} in NIV, KJV, ESV, NLT, MSG & NASB. Explore the meaning, context, and application of this verse.`;
+
+  return {
+    title,
+    description: desc,
+    alternates: { canonical: `https://bibleverserandomizer.com/verse/${reference}` },
+    openGraph: {
+      title,
+      description: desc,
+      url: `https://bibleverserandomizer.com/verse/${reference}`,
+      type: 'article',
+    },
+  };
 }
 
-/**
- * Pre-generate static params for top verses
- * (All 10 verses will be pre-built at build time)
- */
-export async function generateStaticParams() {
-  const allVerses = await getAllVerses();
-  
-  return allVerses.map((slug: string) => ({
-    reference: slug
-  }));
-}
-
-/**
- * Main page component
- */
 export default async function VersePageRoute({ params }: { params: Promise<{ reference: string }> }) {
   const { reference } = await params;
-  const verse = await getVerseData(reference);
+  const verse = getVerseDetailData(reference);
+  if (!verse) notFound();
 
-  if (!verse) {
-    notFound();
-  }
+  const popularInBook = getPopularInBook(verse.book, verse.slug);
 
-  // Get related links
-  const relatedLinks = await getRelatedLinks('verse', verse, {
-    baseUrl: process.env.NEXT_PUBLIC_BASE_URL || 'https://bibleverserandomizer.com'
-  });
-
-  // Get popular verses in same book
-  const popularInBook = await getPopularInBook(verse.book, verse.slug);
-
-  // Generate JSON-LD schema
   const schema = buildPageSchemas({
     pageType: 'verse',
     data: verse,
@@ -86,22 +55,35 @@ export default async function VersePageRoute({ params }: { params: Promise<{ ref
     currentPageName: `${verse.book} ${verse.chapter}:${verse.verse}`
   });
 
+  // FAQ schema
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: (verse.faqs || []).map(f => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  };
+
+  // Breadcrumb schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bibleverserandomizer.com' },
+      { '@type': 'ListItem', position: 2, name: 'Books', item: 'https://bibleverserandomizer.com/books' },
+      { '@type': 'ListItem', position: 3, name: verse.book, item: `https://bibleverserandomizer.com/book/${reference.split('-').slice(0, -2).join('-')}` },
+      { '@type': 'ListItem', position: 4, name: `${verse.book} ${verse.chapter}:${verse.verse}` },
+    ],
+  };
+
   return (
     <>
-      {/* JSON-LD Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-      
-      {/* Render verse page template */}
-      <VersePage
-        verse={verse}
-        relatedLinks={relatedLinks}
-        popularInBook={popularInBook}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <VersePage verse={verse} popularInBook={popularInBook} />
     </>
   );
 }
-
-// Data functions now imported from lib/verse-data.ts

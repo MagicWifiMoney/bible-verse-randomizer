@@ -1,38 +1,54 @@
 # Bible Verse Randomizer
 
-> Free random Bible verse generator and comprehensive Scripture resource. Explore 31,000+ verses by topic, occasion, or book.
+> Free random Bible verse generator and comprehensive Scripture resource. 13,000+ pages covering 31,000+ verses across 6 translations, 447 topics, 3,777 occasions, and all 66 books.
 
 ## About
 
-Bible Verse Randomizer helps people discover God's Word through a random verse generator, topical browsing, and occasion-based Scripture discovery. The site covers all 66 books of the Bible with summaries, themes, and key verses.
+Bible Verse Randomizer helps people discover God's Word through a random verse generator, topical browsing, occasion-based Scripture discovery, verse-by-verse study with 6 translations, and complete chapter reading. The site covers all 66 books of the Bible with summaries, themes, key verses, and full chapter text in NIV, KJV, ESV, NLT, MSG, and NASB.
 
 ## Main Sections
 
 - [Home](https://bibleverserandomizer.com/): Random Bible verse generator with topic filtering
-- [Browse by Topic](https://bibleverserandomizer.com/topics): Bible verses organized by theme — love, faith, hope, forgiveness, strength, and more
-- [Browse by Occasion](https://bibleverserandomizer.com/for): Find the perfect verse for weddings, funerals, tattoos, graduations, and hundreds of life situations
+- [Browse by Topic](https://bibleverserandomizer.com/topics): 447 topics — love, faith, hope, forgiveness, strength, and more
+- [Browse by Occasion](https://bibleverserandomizer.com/for): 3,777 occasions — weddings, funerals, tattoos, graduations, and hundreds of life situations
 - [Books of the Bible](https://bibleverserandomizer.com/books): All 66 books with summaries, themes, chapter counts, and key verses
 - [Daily Verse](https://bibleverserandomizer.com/daily): A new Bible verse every day
 
 ## Content Types
 
 ### Topic Pages (/topic/[slug])
-Each topic page contains curated Bible verses about a specific theme (e.g., love, faith, healing). Verses are selected based on keyword relevance and include the full text from the NIV translation.
+447 topic pages containing curated Bible verses about specific themes (e.g., love, faith, healing). Verses selected based on keyword relevance with full NIV text and FAQ schema.
 
 ### Occasion Pages (/for/[slug])
-Occasion pages help users find Bible verses for specific life events or situations — weddings, funerals, graduations, tattoos, comfort in grief, and more. Verses are categorized by situation type.
+3,777 occasion pages helping users find Bible verses for specific life events — weddings, funerals, graduations, tattoos, comfort in grief, military service, work stress, and more.
 
 ### Book Pages (/book/[slug])
-Book overview pages cover all 66 books of the Bible with:
-- Author and approximate date written
-- Chapter and verse counts
-- Comprehensive summary
-- Key themes with descriptions
-- Notable key verses
+66 book overview pages covering all books of the Bible with author, date, chapter and verse counts, summary, key themes, and notable verses.
+
+### Chapter Pages (/book/[book]/[chapter])
+1,189 chapter pages — the full text of every chapter in the NIV translation. Each page includes verse numbers, prev/next navigation across book boundaries, a chapter grid, and FAQ schema.
+
+### Translation Chapter Pages (/book/[book]/[chapter]/[translation])
+5,945 additional chapter pages in KJV, ESV, NLT, MSG, and NASB translations. Each includes translation context, approach description, cross-translation links, and chapter navigation.
+
+### Verse Detail Pages (/verse/[reference])
+1,000 verse pages for the most popular Bible verses. Each shows the verse in all 6 translations with context, meaning, application, prayer, and FAQ schema.
+
+### Verse Comparison Pages (/verse/[reference]/compare)
+1,000 side-by-side translation comparison pages showing how 6 Bible translations render the same verse, with word count analysis and translation philosophy context.
+
+## Translations Available
+
+- **NIV** (New International Version) — dynamic equivalence, balanced accuracy and readability
+- **KJV** (King James Version) — formal equivalence, classic 1611 prose
+- **ESV** (English Standard Version) — essentially literal, modern scholarly standard
+- **NLT** (New Living Translation) — thought-for-thought, accessible modern English
+- **MSG** (The Message) — contemporary paraphrase by Eugene Peterson
+- **NASB** (New American Standard Bible) — most literal English translation
 
 ## Data Sources
 
-Content is sourced from public domain Bible translations and curated by the Bible Verse Randomizer editorial team. All verse text is from established Bible translations.
+Content sourced from established Bible translations. 31,000+ verses per translation, 1,000 priority verses with detailed commentary, 719 topical themes, and 3,808 occasion categories.
 
 ## Contact
 
