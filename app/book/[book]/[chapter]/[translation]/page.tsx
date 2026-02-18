@@ -19,10 +19,12 @@ import {
     TRANSLATION_META,
 } from '@/lib/translation-chapter-data';
 
-export const dynamicParams = false;
+export const dynamicParams = true;
+export const revalidate = 86400; // ISR: regenerate every 24 hours
 
 export async function generateStaticParams() {
-    return getAllTranslationChapterParams();
+    // Seed the most popular chapters at build time; rest generated on-demand via ISR
+    return getAllTranslationChapterParams().slice(0, 100);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ book: string; chapter: string; translation: string }> }): Promise<Metadata> {
@@ -144,8 +146,8 @@ export default async function TranslationChapterPage({ params }: { params: Promi
                             key={t}
                             href={`/book/${book}/${chStr}/${t}`}
                             className={`px-3 py-1.5 text-sm rounded-full transition-colors ${t === data.translation
-                                    ? 'bg-amber-600 text-white'
-                                    : 'bg-slate-100 text-slate-700 hover:bg-amber-50 hover:text-amber-700'
+                                ? 'bg-amber-600 text-white'
+                                : 'bg-slate-100 text-slate-700 hover:bg-amber-50 hover:text-amber-700'
                                 }`}
                         >
                             {TRANSLATION_META[t].name}
@@ -228,8 +230,8 @@ export default async function TranslationChapterPage({ params }: { params: Promi
                                 key={ch}
                                 href={`/book/${book}/${ch}/${translation}`}
                                 className={`w-10 h-10 flex items-center justify-center rounded text-sm font-medium transition-colors ${ch === data.chapter
-                                        ? 'bg-amber-600 text-white'
-                                        : 'bg-slate-100 text-slate-700 hover:bg-amber-50 hover:text-amber-700'
+                                    ? 'bg-amber-600 text-white'
+                                    : 'bg-slate-100 text-slate-700 hover:bg-amber-50 hover:text-amber-700'
                                     }`}
                             >
                                 {ch}

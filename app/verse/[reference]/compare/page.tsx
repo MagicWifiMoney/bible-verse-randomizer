@@ -11,10 +11,12 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllVerseSlugs, getVerseDetailData } from '@/lib/verse-detail-data';
 
-export const dynamicParams = false;
+export const dynamicParams = true;
+export const revalidate = 86400; // ISR: regenerate every 24 hours
 
 export async function generateStaticParams() {
-    return getAllVerseSlugs().map(slug => ({ reference: slug }));
+    // Seed top 50 comparison pages at build time; rest generated on-demand via ISR
+    return getAllVerseSlugs().slice(0, 50).map(slug => ({ reference: slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ reference: string }> }): Promise<Metadata> {
