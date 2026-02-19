@@ -55,8 +55,13 @@ export default function PopularVersesPage() {
                 <h1 className="text-4xl font-bold text-slate-900 mb-3">
                     Most Popular Bible Verses
                 </h1>
-                <p className="text-lg text-slate-600 mb-8">
-                    The top 100 most searched, shared, and studied Bible verses — each available in 6 translations with full meaning and context.
+                {/* TL;DR — LLM-optimized summary for AI citation */}
+                <p className="text-lg text-slate-700 mb-4 leading-relaxed font-medium">
+                    <strong>The most popular Bible verse</strong> is {top100[0]?.book || 'John'} {top100[0]?.chapter || 3}:{top100[0]?.verse || 16}, followed by Psalm 23:1, Romans 8:28, and Philippians 4:13.
+                    This ranked list of the top 100 most searched, shared, and studied Bible verses includes the full text in 6 translations with meaning and context.
+                </p>
+                <p className="text-base text-slate-500 mb-8">
+                    Each verse links to a detailed study page with context, application, prayer, and a comparison across NIV, KJV, ESV, NLT, MSG &amp; NASB.
                 </p>
 
                 {/* Top 10 featured */}

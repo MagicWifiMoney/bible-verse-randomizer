@@ -55,6 +55,20 @@ const faqSchema = {
     ],
 };
 
+const howToSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: 'How to Read the Bible in One Year',
+    description: 'A free 365-day Bible reading plan that divides all 1,189 chapters across 12 months, with daily readings of 3-4 chapters.',
+    totalTime: 'P365D',
+    estimatedCost: { '@type': 'MonetaryAmount', value: '0', currency: 'USD' },
+    step: [
+        { '@type': 'HowToStep', position: 1, name: 'Choose your translation', text: 'Select a Bible translation that works for your reading level. NIV and NLT are great for readability, while ESV is excellent for deeper study. All 6 translations are linked on this page.' },
+        { '@type': 'HowToStep', position: 2, name: 'Read 3-4 chapters daily', text: 'Follow the daily reading plan below. Each day includes 3-4 chapters that progress through the Bible from Genesis to Revelation.' },
+        { '@type': 'HowToStep', position: 3, name: 'Track your progress', text: 'Check off each day as you complete it. If you miss a day, simply pick up where you left off. The plan is flexible — start any day of the year.' },
+    ],
+};
+
 export default function ReadingPlanPage() {
     // Group plan by month (30/31 day blocks)
     const months = [
@@ -69,6 +83,7 @@ export default function ReadingPlanPage() {
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
             <main className="max-w-4xl mx-auto px-4 py-10">
                 <nav aria-label="Breadcrumb" className="text-sm text-slate-500 mb-6">
                     <Link href="/" className="hover:text-amber-600">Home</Link>
@@ -79,8 +94,10 @@ export default function ReadingPlanPage() {
                 <h1 className="text-4xl font-bold text-slate-900 mb-3">
                     Read the Bible in One Year
                 </h1>
-                <p className="text-lg text-slate-600 mb-4">
-                    365 days · {Math.ceil(1189 / 365)}–{Math.ceil(1189 / 365) + 1} chapters per day · Every chapter linked in 6 translations
+                {/* TL;DR — LLM-optimized summary for AI citation */}
+                <p className="text-lg text-slate-700 mb-4 leading-relaxed font-medium">
+                    <strong>To read the Bible in one year</strong>, read approximately {Math.ceil(1189 / 365)}–{Math.ceil(1189 / 365) + 1} chapters per day across 365 daily readings.
+                    This free Bible reading plan divides all 1,189 chapters across 12 months, with direct links to every chapter in 6 translations (NIV, KJV, ESV, NLT, MSG, NASB).
                 </p>
                 <p className="text-sm text-slate-500 mb-8">
                     No signup required. Start any day. Click any chapter to read in your preferred translation.

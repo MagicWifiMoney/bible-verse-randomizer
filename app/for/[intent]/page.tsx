@@ -61,6 +61,32 @@ export default async function IntentPageRoute({ params }: { params: Promise<{ in
   ];
   const faqSchema = buildFAQSchema(faqs, `https://bibleverserandomizer.com/for/${slug}`);
 
+  // Article schema with author (E-E-A-T)
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `Bible Verses for ${intent.name}`,
+    description: `Find the best Bible verses for ${intent.name.toLowerCase()}. ${intent.verses.length}+ curated Scripture passages with meaning and context.`,
+    url: `https://bibleverserandomizer.com/for/${slug}`,
+    datePublished: '2024-01-01',
+    dateModified: new Date().toISOString().split('T')[0],
+    author: {
+      '@type': 'Organization',
+      '@id': 'https://bibleverserandomizer.com/#organization',
+      name: 'Bible Verse Randomizer',
+      url: 'https://bibleverserandomizer.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      '@id': 'https://bibleverserandomizer.com/#organization',
+      name: 'Bible Verse Randomizer',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://bibleverserandomizer.com/for/${slug}`,
+    },
+  };
+
   return (
     <>
       <script
@@ -70,6 +96,10 @@ export default async function IntentPageRoute({ params }: { params: Promise<{ in
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-amber-50">
         <div className="container mx-auto px-4 py-8 max-w-4xl">

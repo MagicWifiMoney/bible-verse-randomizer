@@ -80,11 +80,46 @@ export default async function VersePageRoute({ params }: { params: Promise<{ ref
     ],
   };
 
+  // Article schema with author (E-E-A-T) and speakable (voice assistants)
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${verse.book} ${verse.chapter}:${verse.verse} — Meaning, Context & All Translations`,
+    description: `Read ${verse.book} ${verse.chapter}:${verse.verse} in 6 translations with full meaning, context, and application.`,
+    url: `https://bibleverserandomizer.com/verse/${reference}`,
+    datePublished: '2024-01-01',
+    dateModified: new Date().toISOString().split('T')[0],
+    author: {
+      '@type': 'Organization',
+      '@id': 'https://bibleverserandomizer.com/#organization',
+      name: 'Bible Verse Randomizer',
+      url: 'https://bibleverserandomizer.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      '@id': 'https://bibleverserandomizer.com/#organization',
+      name: 'Bible Verse Randomizer',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://bibleverserandomizer.com/verse/${reference}`,
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['.verse-display blockquote', '.verse-page header h1'],
+    },
+    about: {
+      '@type': 'CreativeWork',
+      name: 'The Bible',
+    },
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <VersePage verse={verse} popularInBook={popularInBook} />
     </>
   );

@@ -2,7 +2,14 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { getDailyVerse } from '@/lib/verses';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy-initialize to avoid build errors when RESEND_API_KEY is not set
+let _resend: Resend | null = null;
+function getResend() {
+  if (!_resend) {
+    _resend = new Resend(process.env.RESEND_API_KEY || '');
+  }
+  return _resend;
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,7 +26,7 @@ export async function POST(request: NextRequest) {
     const verse = getDailyVerse();
 
     // Send welcome email
-    const { data, error } = await resend.emails.send({
+    const { data, error } = await getResend().emails.send({
       from: 'Bible Verse Randomizer <hello@bibleverserandomizer.com>',
       to: email,
       subject: 'Welcome to Your Daily Verse Journey',

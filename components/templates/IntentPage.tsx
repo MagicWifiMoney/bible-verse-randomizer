@@ -26,21 +26,23 @@ export interface IntentPageData {
 export default function IntentPage({ intent }: { intent: IntentPageData }) {
   return (
     <div className="intent-page max-w-4xl mx-auto px-4 py-8">
-      
+
       <header className="mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Bible Verses for {intent.name}
         </h1>
-        <p className="text-xl text-gray-700">
-          Find the perfect Bible verses for {intent.name.toLowerCase()}. 
-          Discover {intent.verses.length}+ meaningful Scripture passages.
+        {/* TL;DR — LLM-optimized summary for AI citation */}
+        <p className="text-lg text-gray-700 leading-relaxed font-medium">
+          <strong>The best Bible verses for {intent.name.toLowerCase()}</strong> include passages about God's love, strength, and guidance.
+          This page features {intent.verses.length}+ carefully curated Scripture passages for {intent.name.toLowerCase()}, each selected for its relevance and depth.
+          Read, save, and share the perfect verse for your situation.
         </p>
       </header>
 
       {/* Featured Verse */}
       <section className="mb-12 bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-8 border border-purple-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          A Verse for {intent.name}
+          What is the best Bible verse for {intent.name.toLowerCase()}?
         </h2>
         {intent.verses[0] && (
           <>
@@ -59,9 +61,9 @@ export default function IntentPage({ intent }: { intent: IntentPageData }) {
       {/* Main Verse List */}
       <section className="mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          {intent.verses.length} Verses for {intent.name}
+          What are the top {intent.verses.length} Bible verses for {intent.name.toLowerCase()}?
         </h2>
-        
+
         <div className="space-y-6">
           {intent.verses.map(verse => (
             <div key={verse.id} className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-md transition">
@@ -80,10 +82,10 @@ export default function IntentPage({ intent }: { intent: IntentPageData }) {
               )}
               <div className="mt-4 flex gap-3">
                 <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm">
-                  Copy
+                  Copy My Verse
                 </button>
                 <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 text-sm">
-                  Save
+                  Save My Verse
                 </button>
               </div>
             </div>
@@ -91,28 +93,46 @@ export default function IntentPage({ intent }: { intent: IntentPageData }) {
         </div>
       </section>
 
+      {/* Why These Verses Matter — Editorial depth */}
+      <section className="mb-12 bg-blue-50 rounded-xl p-8 border border-blue-200">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Why do Bible verses for {intent.name.toLowerCase()} matter?
+        </h2>
+        <div className="prose max-w-none text-gray-700">
+          <p className="mb-4">
+            Scripture has been a source of comfort, wisdom, and guidance for people navigating {intent.name.toLowerCase()} throughout history.
+            The {intent.verses.length} verses curated on this page were chosen because they speak directly to the spiritual and emotional needs
+            that arise in the context of {intent.name.toLowerCase()}.
+          </p>
+          <p className="mb-4">
+            Whether you&apos;re looking for words of encouragement, a passage to share with someone you care about, or a verse to meditate on during
+            a challenging season, these Scriptures offer timeless truth. Each verse links to a detailed study page with context, meaning,
+            application, and the text in 6 different translations.
+          </p>
+        </div>
+      </section>
+
       {/* How to Use */}
       <section className="mb-12 bg-green-50 rounded-xl p-8 border border-green-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          How to Use These Verses for {intent.name}
+          How should I use Bible verses for {intent.name.toLowerCase()}?
         </h2>
         <div className="prose max-w-none text-gray-700">
           <ol className="space-y-3">
-            <li>Choose verses that resonate most with your specific situation</li>
-            <li>Consider the context and meaning before using them</li>
-            <li>Personalize by adding your own reflections or prayers</li>
-            <li>Share thoughtfully, keeping the recipient in mind</li>
+            <li><strong>Read in context:</strong> Click through to the verse detail page to understand the full passage and its original context before the book, chapter and audience.</li>
+            <li><strong>Compare translations:</strong> Each verse is available in 6 translations — try reading a verse in the NIV for clarity and the KJV for its poetic weight.</li>
+            <li><strong>Personalize your reflection:</strong> Use the application and prayer guides on each verse page to connect the Scripture to your specific situation.</li>
+            <li><strong>Share thoughtfully:</strong> Copy your favorite verse and consider the recipient&apos;s emotional state when sharing. A well-chosen verse at the right moment carries extraordinary power.</li>
           </ol>
         </div>
       </section>
 
-      {/* Newsletter */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-white text-center">
-        <h2 className="text-2xl font-bold mb-4">Get More Inspiration</h2>
-        <p className="mb-6">Receive daily Bible verses and encouragement.</p>
+        <h2 className="text-2xl font-bold mb-4">Get Your Daily Inspiration</h2>
+        <p className="mb-6">Receive a personally curated verse every morning — no spam, unsubscribe anytime.</p>
         <form className="max-w-md mx-auto flex gap-3">
           <input type="email" placeholder="Your email" className="flex-1 px-4 py-3 rounded-lg text-gray-900" />
-          <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg">Subscribe</button>
+          <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg">Get My Daily Verse →</button>
         </form>
       </section>
 

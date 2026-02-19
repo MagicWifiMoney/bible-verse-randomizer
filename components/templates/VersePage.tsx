@@ -23,7 +23,7 @@ export interface VersePageData {
   verse: number;
   slug: string;
   testament: string;
-  
+
   // Verse text in multiple translations
   text_kjv?: string;
   text_niv?: string;
@@ -31,18 +31,18 @@ export interface VersePageData {
   text_nlt?: string;
   text_msg?: string;
   text_nasb?: string;
-  
+
   // AI-generated content
   context?: string;
   meaning?: string;
   application?: string;
   prayer?: string;
-  
+
   // Related data
   topics?: Array<{ id: number; name: string; slug: string }>;
   cross_references?: Array<{ book: string; chapter: number; verse: number; slug: string; text: string }>;
   faqs?: Array<{ question: string; answer: string }>;
-  
+
   // SEO
   popularity_score?: number;
 }
@@ -60,29 +60,39 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
   return (
     <div className="verse-page max-w-7xl mx-auto px-4 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        
+
         {/* Main Content */}
         <article className="lg:col-span-2 space-y-8">
-          
+
           {/* Header */}
           <header>
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               {reference} - Meaning and Context
             </h1>
-            
-            {/* Action Buttons */}
+
+            {/* TL;DR — LLM-optimized summary for AI citation */}
+            <p className="text-lg text-gray-700 leading-relaxed mb-6 font-medium">
+              <strong>{reference}</strong> is a verse from the book of {verse.book} in the {verse.testament}.
+              {verse.meaning
+                ? ` ${verse.meaning.split('.').slice(0, 2).join('.')}.`
+                : ` This passage is widely studied for its spiritual depth and practical application.`
+              }{' '}
+              Read the full text below in 6 translations (NIV, KJV, ESV, NLT, MSG, NASB) with context, meaning, and application.
+            </p>
+
+            {/* Action Buttons — Ownership CTAs */}
             <div className="flex flex-wrap gap-3 mb-6">
               <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-                📋 Copy
+                📋 Copy My Verse
               </button>
               <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition">
-                📤 Share
+                📤 Share My Verse
               </button>
               <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition">
-                ⭐ Save
+                ⭐ Save My Verse
               </button>
               <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition">
-                🖼️ Create Image
+                🖼️ Create My Image
               </button>
               <button className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition">
                 🔊 Listen
@@ -103,7 +113,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {/* Translation Tabs */}
           <section className="translations">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Read in Multiple Translations
+              How does {reference} read in different translations?
             </h2>
             <div className="translation-cards grid grid-cols-1 md:grid-cols-2 gap-4">
               {verse.text_niv && (
@@ -131,7 +141,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {verse.context && (
             <section className="context">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Context and Background
+                What is the context of {reference}?
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700">
                 {verse.context.split('\n\n').map((paragraph, i) => (
@@ -145,7 +155,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {verse.meaning && (
             <section className="meaning">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                What Does {reference} Mean?
+                What does {reference} mean?
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700">
                 {verse.meaning.split('\n\n').map((paragraph, i) => (
@@ -159,7 +169,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {verse.application && (
             <section className="application bg-green-50 rounded-xl p-6 border border-green-200">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                How to Apply {reference} Today
+                How can I apply {reference} to my life today?
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700">
                 {verse.application.split('\n\n').map((paragraph, i) => (
@@ -173,7 +183,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {verse.prayer && (
             <section className="prayer bg-purple-50 rounded-xl p-6 border border-purple-200">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Prayer Based on {reference}
+                What is a prayer based on {reference}?
               </h2>
               <blockquote className="text-lg italic text-gray-800 leading-relaxed">
                 {verse.prayer}
@@ -185,7 +195,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {verse.cross_references && verse.cross_references.length > 0 && (
             <section className="cross-references">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Related Verses
+                What other verses relate to {reference}?
               </h2>
               <p className="text-gray-700 mb-4">
                 These verses connect thematically or contextually with {reference}:
@@ -213,7 +223,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {verse.topics && verse.topics.length > 0 && (
             <section className="topics">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Topics in {reference}
+                What topics does {reference} cover?
               </h2>
               <div className="flex flex-wrap gap-2">
                 {verse.topics.map((topic) => (
@@ -290,7 +300,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
 
         {/* Sidebar */}
         <aside className="space-y-6">
-          
+
           {/* Popular in Book */}
           {popularInBook.length > 0 && (
             <div className="bg-white rounded-xl p-6 border border-gray-200">
@@ -352,10 +362,10 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
           {/* Newsletter CTA */}
           <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl p-6 text-white">
             <h3 className="text-xl font-bold mb-2">
-              Daily Verse
+              Your Daily Verse
             </h3>
             <p className="text-sm mb-4 text-green-50">
-              Get a new verse every day in your inbox.
+              Get a personally curated verse every morning in your inbox.
             </p>
             <form className="space-y-2">
               <input
@@ -364,7 +374,7 @@ export default function VersePage({ verse, relatedLinks = [], popularInBook = []
                 className="w-full px-3 py-2 rounded-lg text-gray-900"
               />
               <button className="w-full bg-white text-green-600 font-semibold py-2 rounded-lg hover:bg-green-50 transition">
-                Subscribe Free
+                Get My Daily Verse →
               </button>
             </form>
           </div>

@@ -129,9 +129,19 @@ export default async function TranslationChapterPage({ params }: { params: Promi
                 </p>
 
                 {/* Translation badge */}
-                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-8">
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
                     <p className="text-sm text-slate-700 leading-relaxed">{meta.description}</p>
                 </div>
+
+                {/* TL;DR — LLM-optimized summary for AI citation */}
+                <p className="text-base text-slate-700 leading-relaxed mb-8 font-medium">
+                    <strong>{data.bookName} Chapter {data.chapter}</strong> contains {data.verses.length} verses and is
+                    presented here in the {meta.fullName} ({meta.name}), which uses a {meta.approach.toLowerCase()} approach.
+                    {data.chapter === 1
+                        ? ` This is the opening chapter of ${data.bookName}, one of the ${data.bookName === 'Genesis' || data.bookName === 'Exodus' || data.bookName === 'Leviticus' || data.bookName === 'Numbers' || data.bookName === 'Deuteronomy' ? 'five books of the Pentateuch' : 'books of the Bible'}.`
+                        : ` Read the full text below, compare with other translations, or navigate to any of the ${data.totalChapters} chapters in ${data.bookName}.`
+                    }
+                </p>
 
                 {/* Read in other translations */}
                 <div className="flex flex-wrap gap-2 mb-8">

@@ -158,6 +158,7 @@ export default function Home() {
 
       <EmailPopup
         isOpen={showEmailPopup}
+        verseCount={verseCount}
         onClose={() => {
           setShowEmailPopup(false);
           localStorage.setItem('emailPopupDismissed', 'true');
