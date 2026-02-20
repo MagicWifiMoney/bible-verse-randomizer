@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Include data/verses JSON files in serverless function bundles
+  // This allows reading verse JSON files without a database connection
+  outputFileTracingIncludes: {
+    '/verse/[reference]': ['./data/verses/**/*.json'],
+  },
+
   // Performance: compress responses
   compress: true,
 

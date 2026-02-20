@@ -164,10 +164,11 @@ ${verseList}
 
 **Output:** Return ONLY a JSON array with this exact format:
 [
-  {"id": <verseId>, "score": <1-100>, "note": "<why it fits, max 80 chars>"},
+  {"id": <verseId>, "score": <1-10>, "note": "<why it fits, max 80 chars>"},
   ...
 ]
 
+Score scale: 10=perfect match, 7-9=strong match, 4-6=good match, 1-3=acceptable match.
 Select 15-25 verses. Put the ID numbers exactly as shown in [ID:XXX].`;
 
     const message = await anthropic.messages.create({
